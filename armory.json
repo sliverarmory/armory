@@ -10,7 +10,7 @@
         {
             "name": "CredMan",
             "command_name": "credman",
-            "repo_url": "https://api.github.com/repos/lesnuages/credman/releases",
+            "repo_url": "https://api.github.com/repos/lesnuages/CredManBOF/releases",
             "public_key": "RWS76vh9dCN1PXI/+xiuXPdDFAM+lI0+AT44AmrISFSbuT/EVsoRS+a0"
         }
     ]
