@@ -6,6 +6,12 @@
             "command_name": "nanodump",
             "repo_url": "https://api.github.com/repos/moloch--/nanodump/releases",
             "public_key": "RWRftt+kvCADbGXc9qe8q1OAkGy5C8lWVrzUVoT3DCH0hJ6uCuzmc0fk"
+        },
+        {
+            "name": "CredMan",
+            "command_name": "credman",
+            "repo_url": "https://api.github.com/repos/lesnuages/credman/releases",
+            "public_key": "RWS76vh9dCN1PXI/+xiuXPdDFAM+lI0+AT44AmrISFSbuT/EVsoRS+a0"
         }
     ]
 }
