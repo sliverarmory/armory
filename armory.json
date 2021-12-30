@@ -30,12 +30,28 @@
             "command_name": "inject-amsi-bypass",
             "repo_url": "https://api.github.com/repos/sliverarmory/InjectAmsiBypass/releases",
             "public_key": "RWTPC+E0Btp82ARPNT5GjCJW/Xy+8N+ey4eUTL+D36dctLz99tIdeUQj"
+        },
+        {
+            "name": "Find Module",
+            "command_name": "find-module",
+            "repo_url": "https://api.github.com/repos/sliverarmory/FindObjects-BOF/releases",
+            "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
+        },
+        {
+            "name": "Find Proc Handle",
+            "command_name": "find-proc-handle",
+            "repo_url": "https://api.github.com/repos/sliverarmory/FindObjects-BOF/releases",
+            "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
         }
     ],
     "bundles": [
         {
             "name": "windows-credentials",
             "packages": ["nanodump", "credman"]
+        },
+        {
+            "name": "windows-bypass",
+            "packages": ["inject-etw-bypass", "inject-amsi-bypass"]
         }
     ]
 }
