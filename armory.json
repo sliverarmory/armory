@@ -24,6 +24,12 @@
             "command_name": "inject-etw-bypass",
             "repo_url": "https://api.github.com/repos/sliverarmory/InjectEtwBypass/releases",
             "public_key": "RWSF8tXGXrAzwUcjXE5eFFMj8bdGftD/rY+eWc/eQKUTeS99jBCThRgr"
+        },
+        {
+            "name": "Inject AMSI Bypass",
+            "command_name": "inject-amsi-bypass",
+            "repo_url": "https://api.github.com/repos/sliverarmory/InjectAmsiBypass/releases",
+            "public_key": "RWTPC+E0Btp82ARPNT5GjCJW/Xy+8N+ey4eUTL+D36dctLz99tIdeUQj"
         }
     ],
     "bundles": [
