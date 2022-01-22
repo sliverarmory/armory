@@ -32,7 +32,7 @@
         },
         {
             "name": "Sharp Hound 3",
-            "command_name": "shazrp-hound-3",
+            "command_name": "sharp-hound-3",
             "repo_url": "https://github.com/sliverarmory/SharpHound3",
             "public_key": "RWRtfmkEkEa+VUsK0fvrCvz/zB9+cSZl50TJz9epUohCY2hfCxC9ttHy"
         }
