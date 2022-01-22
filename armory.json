@@ -11,43 +11,43 @@
         {
             "name": "COFF Loader",
             "command_name": "coff-loader",
-            "repo_url": "https://api.github.com/repos/sliverarmory/COFFLoader/releases",
+            "repo_url": "https://github.com/sliverarmory/COFFLoader",
             "public_key": "RWS76vh9dCN1PXI/+xiuXPdDFAM+lI0+AT44AmrISFSbuT/EVsoRS+a0"
         },
         {
             "name": "Nano Dump",
             "command_name": "nanodump",
-            "repo_url": "https://api.github.com/repos/sliverarmory/nanodump/releases",
+            "repo_url": "https://github.com/sliverarmory/nanodump",
             "public_key": "RWRftt+kvCADbGXc9qe8q1OAkGy5C8lWVrzUVoT3DCH0hJ6uCuzmc0fk"
         },
         {
             "name": "CredMan",
             "command_name": "credman",
-            "repo_url": "https://api.github.com/repos/sliverarmory/CredManBOF/releases",
+            "repo_url": "https://github.com/sliverarmory/CredManBOF",
             "public_key": "RWTGTuUsXkcGbS26sLXUP4TSF/2DdWVdWC1+qb9P9bX+zO5N+A4i5us4"
         },
         {
             "name": "Inject ETW Bypass",
             "command_name": "inject-etw-bypass",
-            "repo_url": "https://api.github.com/repos/sliverarmory/InjectEtwBypass/releases",
+            "repo_url": "https://github.com/sliverarmory/InjectEtwBypass",
             "public_key": "RWSF8tXGXrAzwUcjXE5eFFMj8bdGftD/rY+eWc/eQKUTeS99jBCThRgr"
         },
         {
             "name": "Inject AMSI Bypass",
             "command_name": "inject-amsi-bypass",
-            "repo_url": "https://api.github.com/repos/sliverarmory/InjectAmsiBypass/releases",
+            "repo_url": "https://github.com/sliverarmory/InjectAmsiBypass",
             "public_key": "RWTPC+E0Btp82ARPNT5GjCJW/Xy+8N+ey4eUTL+D36dctLz99tIdeUQj"
         },
         {
             "name": "Find Module",
             "command_name": "find-module",
-            "repo_url": "https://api.github.com/repos/sliverarmory/FindObjects-BOF/releases",
+            "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
             "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
         },
         {
             "name": "Find Proc Handle",
             "command_name": "find-proc-handle",
-            "repo_url": "https://api.github.com/repos/sliverarmory/FindObjects-BOF/releases",
+            "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
             "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
         }
     ],
