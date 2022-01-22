@@ -5,6 +5,18 @@
             "command_name": "rubeus",
             "repo_url": "https://github.com/sliverarmory/Rubeus",
             "public_key": "RWTth26WXm/AKi8aDFVQojlwoPk39DczuYK/d0BUTL64P2GsUVEYhB6O"
+        },
+        {
+            "name": "Seatbelt",
+            "command_name": "seatbelt",
+            "repo_url": "https://github.com/sliverarmory/Seatbelt",
+            "public_key": "RWTZU7ZWqhI5GrQHBX4wWGmJ4YvLQtBWFM/CPInX0qioeULtcPLVRwvn"
+        },
+        {
+            "name": "Certify",
+            "command_name": "certify",
+            "repo_url": "https://github.com/sliverarmory/Certify",
+            "public_key": "RWSuThUM+rbkd/D0mZoP+xOb8REbKzPYlb0bgvriH4AduO/bI0ZGC+U4"  
         }
     ],
     "extensions": [
