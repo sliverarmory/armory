@@ -3,7 +3,7 @@
         {
             "name": "Rubeus",
             "command_name": "rubeus",
-            "repo_url": "https://api.github.com/repos/sliverarmory/Rubeus/releases",
+            "repo_url": "https://github.com/sliverarmory/Rubeus",
             "public_key": "RWTth26WXm/AKi8aDFVQojlwoPk39DczuYK/d0BUTL64P2GsUVEYhB6O"
         }
     ],
