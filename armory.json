@@ -17,6 +17,24 @@
             "command_name": "certify",
             "repo_url": "https://github.com/sliverarmory/Certify",
             "public_key": "RWSuThUM+rbkd/D0mZoP+xOb8REbKzPYlb0bgvriH4AduO/bI0ZGC+U4"  
+        },
+        {
+            "name": "Sharp SMBExec",
+            "command_name": "sharp-smbexec",
+            "repo_url": "https://github.com/sliverarmory/Sharp-SMBExec",
+            "public_key": "RWTzbWTprptWnmspTQwcI1TtQEtzC7UAMpFdEnqUKoqoWaH/90AF7rAX"  
+        },
+        {
+            "name": "Sharp WMI",
+            "command_name": "sharp-wmi",
+            "repo_url": "https://github.com/sliverarmory/SharpWMI",
+            "public_key": "RWQWeNAuBZoUij0WVFFJiY9XW8+mZ3JOkSVBXnsgMbgl3h7sm69tZbbO"
+        },
+        {
+            "name": "Sharp Hound 3",
+            "command_name": "shazrp-hound-3",
+            "repo_url": "https://github.com/sliverarmory/SharpHound3",
+            "public_key": "RWRtfmkEkEa+VUsK0fvrCvz/zB9+cSZl50TJz9epUohCY2hfCxC9ttHy"
         }
     ],
     "extensions": [
