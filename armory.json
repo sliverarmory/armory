@@ -79,6 +79,12 @@
             "command_name": "find-proc-handle",
             "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
             "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
+        },
+        {
+            "name": "BOF Roast",
+            "command_name": "bof-roast",
+            "repo_url": "https://github.com/sliverarmory/BofRoast",
+            "public_key": "RWRgRJAS+Nae5U5ThhqgFdedx+Fpfm+eYCXkx9gHCzd0em1djrupBaEg"
         }
     ],
     "bundles": [
