@@ -85,6 +85,42 @@
             "command_name": "bof-roast",
             "repo_url": "https://github.com/sliverarmory/BofRoast",
             "public_key": "RWRgRJAS+Nae5U5ThhqgFdedx+Fpfm+eYCXkx9gHCzd0em1djrupBaEg"
+        },
+        {
+            "name": "ADCS Enum",
+            "command_name":"sa-adcs-enum",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "ADCS Enum COM",
+            "command_name":"sa-adcs-enum-com",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "ADCS Enum COM2",
+            "command_name":"sa-adcs-enum-com2",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Adv Audit Policies",
+            "command_name":"sa-adv-audit-policies",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "ARP",
+            "command_name":"sa-arp",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Cacls",
+            "command_name":"sa-cacls",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         }
     ],
     "bundles": [
@@ -95,6 +131,17 @@
         {
             "name": "windows-bypass",
             "packages": ["inject-etw-bypass", "inject-amsi-bypass"]
+        },
+        {
+            "name": "situational-awareness",
+            "packages": [
+                "sa-adcs-enum",
+                "sa-adcs-enum-com",
+                "sa-adcs-enum-com2",
+                "sa-adv-audit-policies",
+                "sa-arp",
+                "sa-cacls"
+            ]
         }
     ]
 }
