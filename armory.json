@@ -121,6 +121,90 @@
             "command_name":"sa-cacls",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Driver Sigs",
+            "command_name":"sa-driversigs",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Enum Filter Driver",
+            "command_name":"sa-enum-filter-driver",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Enum Local Sessions",
+            "command_name":"sa-enum-local-sessions",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Find Loaded Module",
+            "command_name":"sa-find-loaded-module",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Get Password Policy",
+            "command_name":"sa-get-password-policy",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Get NetSession",
+            "command_name":"sa-get-netsession",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "IP Config",
+            "command_name":"sa-ipconfig",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "LDAP Search",
+            "command_name":"sa-ldapsearch",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "List DNS",
+            "command_name":"sa-listdns",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "List Modules",
+            "command_name":"sa-listmods",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Net Group",
+            "command_name":"sa-netgroup",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Net Local Group",
+            "command_name":"sa-netlocalgroup",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Net Shares",
+            "command_name":"sa-netshares",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Net Stat",
+            "command_name":"sa-netstat",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         }
     ],
     "bundles": [
@@ -140,7 +224,21 @@
                 "sa-adcs-enum-com2",
                 "sa-adv-audit-policies",
                 "sa-arp",
-                "sa-cacls"
+                "sa-cacls",
+                "sa-driversigs",
+                "sa-enum-filter-driver",
+                "sa-enum-local-sessions",
+                "sa-find-loaded-module",
+                "sa-get-password-policy",
+                "sa-get-netsession",
+                "sa-ipconfig",
+                "sa-ldapsearch",
+                "sa-listdns",
+                "sa-listmods",
+                "sa-netgroup",
+                "sa-netlocalgroup",
+                "sa-netshares",
+                "sa-netstat"
             ]
         }
     ]
