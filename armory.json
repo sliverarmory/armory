@@ -205,6 +205,12 @@
             "command_name":"sa-netstat",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "ChromiumKeyDump",
+            "command_name":"chromiumkeydump",
+            "repo_url": "https://github.com/sliverarmory/bof-collection",
+            "public_key": "RWSN/EmkY2pASCHFwyP7aS0fO7sb6cq7KP3NNHWRq/bzKF0jZABv8BvA"
         }
     ],
     "bundles": [
