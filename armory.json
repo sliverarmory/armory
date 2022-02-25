@@ -211,6 +211,12 @@
             "command_name":"chromiumkeydump",
             "repo_url": "https://github.com/sliverarmory/bof-collection",
             "public_key": "RWSN/EmkY2pASCHFwyP7aS0fO7sb6cq7KP3NNHWRq/bzKF0jZABv8BvA"
+        },
+        {
+            "name": "HandleKatz_BOF",
+            "command_name":"handlekatz",
+            "repo_url": "https://github.com/sliverarmory/HandleKatz_BOF",
+            "public_key": "RWRf3fkrlfYhjX/yAw0bsDDX6KQUOfiqmfPMqxJ0o0EfMVqSrQJcw8QQ"
         }
     ],
     "bundles": [
