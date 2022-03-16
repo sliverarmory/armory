@@ -35,6 +35,18 @@
             "command_name": "sharp-hound-3",
             "repo_url": "https://github.com/sliverarmory/SharpHound3",
             "public_key": "RWRtfmkEkEa+VUsK0fvrCvz/zB9+cSZl50TJz9epUohCY2hfCxC9ttHy"
+        },
+        {
+            "name": "SharpMapExec",
+            "command_name": "sharpmapexec",
+            "repo_url": "https://github.com/sliverarmory/SharpMapExec",
+            "public_key": "RWTyIQGdF3eiTV+6+697f86vwZgFrrNDrD3pUezaAlCTJQYlNW7qBBbS"
+        },
+        {
+            "name": "SharpSecDump",
+            "command_name": "sharpsecdump",
+            "repo_url": "https://github.com/sliverarmory/SharpSecDump",
+            "public_key": "RWRZah+ob0iboc9lgN8Ptfc2QAltzhYI8p/u8CvIKs+nTqg0qY6LpQmZ"
         }
     ],
     "extensions": [
@@ -223,6 +235,12 @@
             "command_name":"ldapsigncheck",
             "repo_url": "https://github.com/sliverarmory/LdapSignCheck",
             "public_key": "RWQYjHn4JYThXQE7N13FstjBzDERt/Hhd72hV/hFuPG4RAZZteOttf1o"
+        },
+        {
+            "name": "unhook-bof",
+            "command_name":"unhook",
+            "repo_url": "https://github.com/sliverarmory/unhook-bof",
+            "public_key": "RWTfJUbkhmANsG740AhAuvsBY1hGaiMQYPq3DxZcT2zYQZ1sMbRnDsP+"
         }
     ],
     "bundles": [
