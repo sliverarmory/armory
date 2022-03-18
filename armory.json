@@ -16,13 +16,13 @@
             "name": "Certify",
             "command_name": "certify",
             "repo_url": "https://github.com/sliverarmory/Certify",
-            "public_key": "RWSuThUM+rbkd/D0mZoP+xOb8REbKzPYlb0bgvriH4AduO/bI0ZGC+U4"  
+            "public_key": "RWSuThUM+rbkd/D0mZoP+xOb8REbKzPYlb0bgvriH4AduO/bI0ZGC+U4"
         },
         {
             "name": "Sharp SMBExec",
             "command_name": "sharp-smbexec",
             "repo_url": "https://github.com/sliverarmory/Sharp-SMBExec",
-            "public_key": "RWTzbWTprptWnmspTQwcI1TtQEtzC7UAMpFdEnqUKoqoWaH/90AF7rAX"  
+            "public_key": "RWTzbWTprptWnmspTQwcI1TtQEtzC7UAMpFdEnqUKoqoWaH/90AF7rAX"
         },
         {
             "name": "Sharp WMI",
@@ -100,145 +100,145 @@
         },
         {
             "name": "ADCS Enum",
-            "command_name":"sa-adcs-enum",
+            "command_name": "sa-adcs-enum",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "ADCS Enum COM",
-            "command_name":"sa-adcs-enum-com",
+            "command_name": "sa-adcs-enum-com",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "ADCS Enum COM2",
-            "command_name":"sa-adcs-enum-com2",
+            "command_name": "sa-adcs-enum-com2",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Adv Audit Policies",
-            "command_name":"sa-adv-audit-policies",
+            "command_name": "sa-adv-audit-policies",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "ARP",
-            "command_name":"sa-arp",
+            "command_name": "sa-arp",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Cacls",
-            "command_name":"sa-cacls",
+            "command_name": "sa-cacls",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Driver Sigs",
-            "command_name":"sa-driversigs",
+            "command_name": "sa-driversigs",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Enum Filter Driver",
-            "command_name":"sa-enum-filter-driver",
+            "command_name": "sa-enum-filter-driver",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Enum Local Sessions",
-            "command_name":"sa-enum-local-sessions",
+            "command_name": "sa-enum-local-sessions",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Find Loaded Module",
-            "command_name":"sa-find-loaded-module",
+            "command_name": "sa-find-loaded-module",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Get Password Policy",
-            "command_name":"sa-get-password-policy",
+            "command_name": "sa-get-password-policy",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Get NetSession",
-            "command_name":"sa-get-netsession",
+            "command_name": "sa-get-netsession",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "IP Config",
-            "command_name":"sa-ipconfig",
+            "command_name": "sa-ipconfig",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "LDAP Search",
-            "command_name":"sa-ldapsearch",
+            "command_name": "sa-ldapsearch",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "List DNS",
-            "command_name":"sa-listdns",
+            "command_name": "sa-listdns",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "List Modules",
-            "command_name":"sa-listmods",
+            "command_name": "sa-listmods",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Net Group",
-            "command_name":"sa-netgroup",
+            "command_name": "sa-netgroup",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Net Local Group",
-            "command_name":"sa-netlocalgroup",
+            "command_name": "sa-netlocalgroup",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Net Shares",
-            "command_name":"sa-netshares",
+            "command_name": "sa-netshares",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "Net Stat",
-            "command_name":"sa-netstat",
+            "command_name": "sa-netstat",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
             "name": "ChromiumKeyDump",
-            "command_name":"chromiumkeydump",
+            "command_name": "chromiumkeydump",
             "repo_url": "https://github.com/sliverarmory/bof-collection",
             "public_key": "RWSN/EmkY2pASCHFwyP7aS0fO7sb6cq7KP3NNHWRq/bzKF0jZABv8BvA"
         },
         {
             "name": "HandleKatz_BOF",
-            "command_name":"handlekatz",
+            "command_name": "handlekatz",
             "repo_url": "https://github.com/sliverarmory/HandleKatz_BOF",
             "public_key": "RWRf3fkrlfYhjX/yAw0bsDDX6KQUOfiqmfPMqxJ0o0EfMVqSrQJcw8QQ"
         },
         {
             "name": "LdapSignCheck",
-            "command_name":"ldapsigncheck",
+            "command_name": "ldapsigncheck",
             "repo_url": "https://github.com/sliverarmory/LdapSignCheck",
             "public_key": "RWQYjHn4JYThXQE7N13FstjBzDERt/Hhd72hV/hFuPG4RAZZteOttf1o"
         },
         {
-            "name": "unhook-bof",
-            "command_name":"unhook",
+            "name": "Unhook BOF",
+            "command_name": "unhook-bof",
             "repo_url": "https://github.com/sliverarmory/unhook-bof",
             "public_key": "RWTfJUbkhmANsG740AhAuvsBY1hGaiMQYPq3DxZcT2zYQZ1sMbRnDsP+"
         }
@@ -246,11 +246,17 @@
     "bundles": [
         {
             "name": "windows-credentials",
-            "packages": ["nanodump", "credman"]
+            "packages": [
+                "nanodump",
+                "credman"
+            ]
         },
         {
             "name": "windows-bypass",
-            "packages": ["inject-etw-bypass", "inject-amsi-bypass"]
+            "packages": [
+                "inject-etw-bypass",
+                "inject-amsi-bypass"
+            ]
         },
         {
             "name": "situational-awareness",
