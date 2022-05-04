@@ -253,6 +253,18 @@
             "command_name": "unhook-bof",
             "repo_url": "https://github.com/sliverarmory/unhook-bof",
             "public_key": "RWTfJUbkhmANsG740AhAuvsBY1hGaiMQYPq3DxZcT2zYQZ1sMbRnDsP+"
+        },
+        {
+            "name": "hollow",
+            "command_name": "hollow",
+            "repo_url": "https://github.com/sliverarmory/hollow",
+            "public_key": "RWQPThFN80cr30q2UqF99+YJFZBOH1DoWi9PewURBIp1KD/A37IT8S7W"
+        },
+        {
+            "name": "secinject",
+            "command_name": "secinject",
+            "repo_url": "https://github.com/sliverarmory/secinject",
+            "public_key": "RWTuSv5qvs1adchtXS0stvDeORK3wXVo3dAInfcAxNdsJ6ix2pPB0hMD"
         }
     ],
     "bundles": [
