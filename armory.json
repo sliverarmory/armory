@@ -53,6 +53,12 @@
             "command_name": "sharpsecdump",
             "repo_url": "https://github.com/sliverarmory/SharpSecDump",
             "public_key": "RWRZah+ob0iboc9lgN8Ptfc2QAltzhYI8p/u8CvIKs+nTqg0qY6LpQmZ"
+        },
+        {
+            "name": "nopowershell",
+            "command_name": "nps",
+            "repo_url": "https://github.com/sliverarmory/nopowershell",
+            "public_key": "RWRZAQd8e5n+PqVo0P60o2njMPNLuXcQ+hRUZR44Enq047zKSHwb0l7d"
         }
     ],
     "extensions": [
