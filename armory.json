@@ -53,6 +53,12 @@
             "command_name": "sharpsecdump",
             "repo_url": "https://github.com/sliverarmory/SharpSecDump",
             "public_key": "RWRZah+ob0iboc9lgN8Ptfc2QAltzhYI8p/u8CvIKs+nTqg0qY6LpQmZ"
+        },
+        {
+            "name": "nopowershell",
+            "command_name": "nps",
+            "repo_url": "https://github.com/sliverarmory/nopowershell",
+            "public_key": "RWRZAQd8e5n+PqVo0P60o2njMPNLuXcQ+hRUZR44Enq047zKSHwb0l7d"
         }
     ],
     "extensions": [
@@ -225,6 +231,114 @@
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
+            "name": "Net View",
+            "command_name": "sa-netview",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Nslookup",
+            "command_name": "sa-nslookup",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Reg Query",
+            "command_name": "sa-reg-query",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Routeprint",
+            "command_name": "sa-routeprint",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Sc Enum",
+            "command_name": "sa-sc-enum",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Sc Qc",
+            "command_name": "sa-sc-qc",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Sc Qdescription",
+            "command_name": "sa-sc-qdescription",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Sc Qfailure",
+            "command_name": "sa-sc-qfailure",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Sc Qtriggerinfo",
+            "command_name": "sa-sc-qtriggerinfo",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Sc Query",
+            "command_name": "sa-sc-query",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "schtasksenum",
+            "command_name": "sa-schtasksenum",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "schtasksquery",
+            "command_name": "sa-schtasksquery",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Tasklist",
+            "command_name": "sa-tasklist",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Uptime",
+            "command_name": "sa-uptime",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Vssenum",
+            "command_name": "sa-vssenum",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Whoami",
+            "command_name": "sa-whoami",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Windowlist",
+            "command_name": "sa-windowlist",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "Wmi Query",
+            "command_name": "sa-wmi-query",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
             "name": "ChromiumKeyDump",
             "command_name": "chromiumkeydump",
             "repo_url": "https://github.com/sliverarmory/bof-collection",
@@ -247,6 +361,18 @@
             "command_name": "unhook-bof",
             "repo_url": "https://github.com/sliverarmory/unhook-bof",
             "public_key": "RWTfJUbkhmANsG740AhAuvsBY1hGaiMQYPq3DxZcT2zYQZ1sMbRnDsP+"
+        },
+        {
+            "name": "hollow",
+            "command_name": "hollow",
+            "repo_url": "https://github.com/sliverarmory/hollow",
+            "public_key": "RWQPThFN80cr30q2UqF99+YJFZBOH1DoWi9PewURBIp1KD/A37IT8S7W"
+        },
+        {
+            "name": "secinject",
+            "command_name": "secinject",
+            "repo_url": "https://github.com/sliverarmory/secinject",
+            "public_key": "RWTuSv5qvs1adchtXS0stvDeORK3wXVo3dAInfcAxNdsJ6ix2pPB0hMD"
         }
     ],
     "bundles": [
