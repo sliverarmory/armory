@@ -412,7 +412,23 @@
                 "sa-netgroup",
                 "sa-netlocalgroup",
                 "sa-netshares",
-                "sa-netstat"
+                "sa-netstat",
+                "sa-nslookup",
+                "sa-reg-query",
+                "sa-routeprint",
+                "sa-sc-enum",
+                "sa-sc-qc",
+                "sa-sc-qdescription",
+                "sa-sc-qfailure",
+                "sa-sc-qtriggerinfo",
+                "sa-sc-query",
+                "sa-schtasksquery",
+                "sa-tasklist",
+                "sa-uptime",
+                "sa-vssenum",
+                "sa-whoami",
+                "sa-windowlist",
+                "sa-wmi-query"
             ]
         }
     ]
