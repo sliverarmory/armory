@@ -496,9 +496,7 @@
             "packages": [
                 "sharp-smbexec",
                 "sharp-wmi",
-                "sharpmapexec",
-                "c2tc-smbinfo",
-                "c2tc-winver"
+                "sharpmapexec"
             ]
         },
         {
