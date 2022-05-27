@@ -59,6 +59,18 @@
             "command_name": "nps",
             "repo_url": "https://github.com/sliverarmory/nopowershell",
             "public_key": "RWRZAQd8e5n+PqVo0P60o2njMPNLuXcQ+hRUZR44Enq047zKSHwb0l7d"
+        },
+        {
+            "name": "SharpUp",
+            "command_name": "sharpup",
+            "repo_url": "https://github.com/sliverarmory/SharpUp",
+            "public_key": "RWQHZhQyw84p2y5DTIN+gHNuocI28fIR5v+G2DjuqkTvRbAgipD6kuJV"
+        },
+        {
+            "name": "SharPersist",
+            "command_name": "sharpersist",
+            "repo_url": "https://github.com/sliverarmory/SharPersist",
+            "public_key": "RWQoaoDKubhSD8hHSrbuJYhjN+NMXIM9BhWhHB5UXQYPAcgbXsqBRROw"
         }
     ],
     "extensions": [
@@ -373,6 +385,48 @@
             "command_name": "secinject",
             "repo_url": "https://github.com/sliverarmory/secinject",
             "public_key": "RWTuSv5qvs1adchtXS0stvDeORK3wXVo3dAInfcAxNdsJ6ix2pPB0hMD"
+        },
+        {
+            "name": "Delegation BOF",
+            "command_name": "delegationbof",
+            "repo_url": "https://github.com/sliverarmory/DelegationBOF",
+            "public_key": "RWSzonsCJJ38uhlR4jbMa6B7LhHZ315JkOG0Jsw5V94NM5iv6m/qTQCm"
+        },
+        {
+            "name": "C2-Tool-Collection Askcreds BOF",
+            "command_name": "c2tc-askcreds",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Kerberoast BOF",
+            "command_name": "c2tc-kerberoast",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Psw BOF",
+            "command_name": "c2tc-psw",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Smbinfo BOF",
+            "command_name": "c2tc-smbinfo",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Winver BOF",
+            "command_name": "c2tc-winver",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "tgtdelegation",
+            "command_name": "tgtdelegation",
+            "repo_url": "https://github.com/sliverarmory/tgtdelegation",
+            "public_key": "RWRkoeERRaeV81FHsxqwHvz9AFJ/GrX7Km1EPoEtXmCdOYUyELtdpVIE"
         }
     ],
     "bundles": [
@@ -429,6 +483,42 @@
                 "sa-whoami",
                 "sa-windowlist",
                 "sa-wmi-query"
+            ]
+        },
+        {
+            "name": "c2-tool-collection",
+            "packages": [
+                "c2tc-askcreds",
+                "c2tc-kerberoast",
+                "c2tc-psw",
+                "c2tc-smbinfo",
+                "c2tc-winver"
+            ]
+        },
+        {
+            "name": ".net recon",
+            "packages": [
+                "seatbelt",
+                "sharp-hound-3",
+                "sharpup"
+            ]
+        },
+        {
+            "name": ".net execute",
+            "packages": [
+                "sharp-smbexec",
+                "sharp-wmi",
+                "sharpmapexec",
+                "sharpersist"
+            ]
+        },
+        {
+            "name": ".net pivot",
+            "packages": [
+                "krbrelayup",
+                "rubeus",
+                "certify",
+                "sharpsecdump"
             ]
         }
     ]
