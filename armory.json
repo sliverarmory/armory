@@ -65,6 +65,12 @@
             "command_name": "sharpup",
             "repo_url": "https://github.com/sliverarmory/SharpUp",
             "public_key": "RWQHZhQyw84p2y5DTIN+gHNuocI28fIR5v+G2DjuqkTvRbAgipD6kuJV"
+        },
+        {
+            "name": "SharPersist",
+            "command_name": "sharpersist",
+            "repo_url": "https://github.com/sliverarmory/SharPersist",
+            "public_key": "RWQoaoDKubhSD8hHSrbuJYhjN+NMXIM9BhWhHB5UXQYPAcgbXsqBRROw"
         }
     ],
     "extensions": [
@@ -415,6 +421,12 @@
             "command_name": "c2tc-winver",
             "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
             "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "tgtdelegation",
+            "command_name": "tgtdelegation",
+            "repo_url": "https://github.com/sliverarmory/tgtdelegation",
+            "public_key": "RWRkoeERRaeV81FHsxqwHvz9AFJ/GrX7Km1EPoEtXmCdOYUyELtdpVIE"
         }
     ],
     "bundles": [
@@ -496,7 +508,8 @@
             "packages": [
                 "sharp-smbexec",
                 "sharp-wmi",
-                "sharpmapexec"
+                "sharpmapexec",
+                "sharpersist"
             ]
         },
         {
