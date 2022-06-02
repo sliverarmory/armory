@@ -422,11 +422,48 @@
             "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
             "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
         },
+        
+        {
+            "name": "C2-Tool-Collection AddMachineAccount BOF",
+            "command_name": "c2tc-addmachineaccount",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Lapsdump BOF",
+            "command_name": "c2tc-lapsdump",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection PetitPotam BOF",
+            "command_name": "c2tc-petitpotam",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
         {
             "name": "tgtdelegation",
             "command_name": "tgtdelegation",
             "repo_url": "https://github.com/sliverarmory/tgtdelegation",
             "public_key": "RWRkoeERRaeV81FHsxqwHvz9AFJ/GrX7Km1EPoEtXmCdOYUyELtdpVIE"
+        },
+        {
+            "name": "scshell",
+            "command_name": "scshell",
+            "repo_url": "https://github.com/sliverarmory/SCShell",
+            "public_key": "RWQQ/PVOzVMSOYt2bASGJyuLXqpPJQ4VhL8ZGcYn9tBx6mu3/L9osdEs"
+        },
+        {
+            "name": "bof-servicemove",
+            "command_name": "bof-servicemove",
+            "repo_url": "https://github.com/sliverarmory/ServiceMove-BOF",
+            "public_key": "RWRkGH1ddtfCXPyrJi1iCVQdS7kw6+QRekp1zKu7Su/KMzEDj0/DzeTE"
+        },
+        {
+            "name": "Syscalls Shellcode Inject",
+            "command_name": "syscalls_shinject",
+            "repo_url": "https://github.com/sliverarmory/BOFs",
+            "public_key": "RWS3pUfl/3Kb6A3F69YmQe3SmhSU1s5+wt3Z3tgX1IiDHpIMqKjY8/Qu"
         }
     ],
     "bundles": [
@@ -434,14 +471,41 @@
             "name": "windows-credentials",
             "packages": [
                 "nanodump",
-                "credman"
+                "credman",
+                "chromiumkeydump",
+                "handlekatz"
+            ]
+        },
+        {
+            "name": "kerberos",
+            "packages": [
+                "bof-roast",
+                "delegationbof",
+                "c2tc-kerberoast",
+                "tgtdelegation"
+            ]
+        },
+        {
+            "name": "windows-pivot",
+            "packages": [
+                "scshell",
+                "bof-servicemove"
             ]
         },
         {
             "name": "windows-bypass",
             "packages": [
                 "inject-etw-bypass",
-                "inject-amsi-bypass"
+                "inject-amsi-bypass",
+                "unhook-bof"
+            ]
+        },
+        {
+            "name": "windows-inject",
+            "packages": [
+                "hollow",
+                "secinject",
+                "syscalls_shinject"
             ]
         },
         {
@@ -490,8 +554,11 @@
         {
             "name": "c2-tool-collection",
             "packages": [
+                "c2tc-addmachineaccount",
                 "c2tc-askcreds",
                 "c2tc-kerberoast",
+                "c2tc-lapsdump",
+                "c2tc-petitpotam",
                 "c2tc-psw",
                 "c2tc-smbinfo",
                 "c2tc-winver"
