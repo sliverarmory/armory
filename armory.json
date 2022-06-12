@@ -464,6 +464,12 @@
             "command_name": "syscalls_shinject",
             "repo_url": "https://github.com/sliverarmory/BOFs",
             "public_key": "RWS3pUfl/3Kb6A3F69YmQe3SmhSU1s5+wt3Z3tgX1IiDHpIMqKjY8/Qu"
+        },
+        {
+            "name": "InlineExecute-Assembly",
+            "command_name": "inline-execute-assembly",
+            "repo_url": "https://github.com/sliverarmory/InlineExecute-Assembly",
+            "public_key": "RWRtW3fCRENY2BQ664A0Ko76/Jlh6ZLZvA3bbt20ky1TuLWlh41QQCF1"
         }
     ],
     "bundles": [
