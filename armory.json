@@ -470,7 +470,103 @@
             "command_name": "inline-execute-assembly",
             "repo_url": "https://github.com/sliverarmory/InlineExecute-Assembly",
             "public_key": "RWRtW3fCRENY2BQ664A0Ko76/Jlh6ZLZvA3bbt20ky1TuLWlh41QQCF1"
-        }
+        },
+        {
+            "name": "remote-adcs-request",
+            "command_name": "remote-adcs-request",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-chrome-key",
+            "command_name": "remote-chrome-key",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-enable-user",
+            "command_name": "remote-enable-user",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-process-destroy",
+            "command_name": "remote-process-destroy",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-process-list-handles",
+            "command_name": "remote-process-list-handles",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-reg-delete",
+            "command_name": "remote-reg-delete",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-reg-save",
+            "command_name": "remote-reg-save",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-schtasks-delete",
+            "command_name": "remote-schtasks-delete",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-schtasks-stop",
+            "command_name": "remote-schtasks-stop",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-sc-config",
+            "command_name": "remote-sc-config",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-sc-create",
+            "command_name": "remote-sc-create",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-sc-delete",
+            "command_name": "remote-sc-delete",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-sc-description",
+            "command_name": "remote-sc-description",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-sc-start",
+            "command_name": "remote-sc-start",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-sc-stop",
+            "command_name": "remote-sc-stop",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          },
+          {
+            "name": "remote-setuserpass",
+            "command_name": "remote-setuserpass",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+          }
     ],
     "bundles": [
         {
@@ -568,6 +664,27 @@
                 "c2tc-psw",
                 "c2tc-smbinfo",
                 "c2tc-winver"
+            ]
+        },
+        {
+            "name": "cs-remote-ops-bofs",
+            "packages": [
+                "remote-adcs-request",
+                "remote-chrome-key",
+                "remote-enable-user",
+                "remote-process-destroy",
+                "remote-process-list-handles",
+                "remote-reg-delete",
+                "remote-reg-save",
+                "remote-schtasks-delete",
+                "remote-schtasks-stop",
+                "remote-sc-config",
+                "remote-sc-create",
+                "remote-sc-delete",
+                "remote-sc-description",
+                "remote-sc-start",
+                "remote-sc-stop",
+                "remote-setuserpass"
             ]
         },
         {
