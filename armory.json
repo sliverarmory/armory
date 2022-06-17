@@ -568,7 +568,7 @@
         },
         {
             "name": "Keylogger",
-            "command_name": "raw_keylogger",
+            "command_name": "raw-keylogger",
             "repo_url": "https://github.com/sliverarmory/SliverKeylogger",
             "public_key": "RWSSZAU2J83hqtNtSZigjU4PWcII3XYLP8KCvCJbxJUO8ax1GWTsdHYK"
         }
