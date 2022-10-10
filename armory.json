@@ -71,6 +71,18 @@
             "command_name": "sharpersist",
             "repo_url": "https://github.com/sliverarmory/SharPersist",
             "public_key": "RWQoaoDKubhSD8hHSrbuJYhjN+NMXIM9BhWhHB5UXQYPAcgbXsqBRROw"
+        },
+        {
+            "name": "SharpChrome",
+            "command_name": "sharpchrome",
+            "repo_url": "https://github.com/sliverarmory/SharpDPAPI",
+            "public_key": "RWS0mEsJiGoarMXFqPwlX9qXr7R/r6DiIewOLvribhBXDdhC2cop0Izf"
+        },
+        {
+            "name": "SharpDPAPI",
+            "command_name": "sharpdpapi",
+            "repo_url": "https://github.com/sliverarmory/SharpDPAPI",
+            "public_key": "RWS0mEsJiGoarMXFqPwlX9qXr7R/r6DiIewOLvribhBXDdhC2cop0Izf"
         }
     ],
     "extensions": [
