@@ -718,7 +718,8 @@
                 "sharp-smbexec",
                 "sharp-wmi",
                 "sharpmapexec",
-                "sharpersist"
+                "sharpersist",
+                "nopowershell"
             ]
         },
         {
@@ -727,7 +728,9 @@
                 "krbrelayup",
                 "rubeus",
                 "certify",
-                "sharpsecdump"
+                "sharpsecdump",
+                "sharpchrome",
+                "sharpdpapi"
             ]
         }
     ]
