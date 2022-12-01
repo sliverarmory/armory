@@ -83,6 +83,12 @@
             "command_name": "sharpdpapi",
             "repo_url": "https://github.com/sliverarmory/SharpDPAPI",
             "public_key": "RWS0mEsJiGoarMXFqPwlX9qXr7R/r6DiIewOLvribhBXDdhC2cop0Izf"
+        },
+        {
+            "name": "SQLRecon",
+            "command_name": "sqlrecon",
+            "repo_url": "https://github.com/sliverarmory/SQLRecon",
+            "public_key": "RWSvFT0pAS/CZFS8VvvC0SyQ4A/DJ18LP8yJZp+U2mWhjoawQ9ras0Jl"
         }
     ],
     "extensions": [
@@ -730,7 +736,8 @@
                 "certify",
                 "sharpsecdump",
                 "sharpchrome",
-                "sharpdpapi"
+                "sharpdpapi",
+                "sqlrecon"
             ]
         }
     ]
