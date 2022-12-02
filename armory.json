@@ -89,6 +89,24 @@
             "command_name": "sqlrecon",
             "repo_url": "https://github.com/sliverarmory/SQLRecon",
             "public_key": "RWSvFT0pAS/CZFS8VvvC0SyQ4A/DJ18LP8yJZp+U2mWhjoawQ9ras0Jl"
+        },
+        {
+            "name": "SharpLAPS",
+            "command_name": "sharplaps",
+            "repo_url": "https://github.com/sliverarmory/SharpLAPS",
+            "public_key": "RWSSrwXMkfGmw8jbX1mYSRTRp5F+D46bNXSFZTmwGQ2f9QzC6YXe14gU"
+        },
+        {
+            "name": "SharpView",
+            "command_name": "sharpview",
+            "repo_url": "https://github.com/sliverarmory/SharpView",
+            "public_key": "RWSBkgNHbFrYPJAhEG6oK8hejcoUwlOax/l/dVygVbscPvT5L6Cu3sWw"
+        },
+        {
+            "name": "SharpRDP",
+            "command_name": "sharprdp",
+            "repo_url": "https://github.com/sliverarmory/SharpRDP",
+            "public_key": "RWTppYqZIoiln9Vuj7dLtPBAjt+3BjpR3t3NCJfvBlLhZqgvE4qjdqkF"
         }
     ],
     "extensions": [
@@ -715,7 +733,8 @@
             "packages": [
                 "seatbelt",
                 "sharp-hound-3",
-                "sharpup"
+                "sharpup",
+                "sharpview"
             ]
         },
         {
@@ -725,7 +744,8 @@
                 "sharp-wmi",
                 "sharpmapexec",
                 "sharpersist",
-                "nopowershell"
+                "nopowershell",
+                "sharprdp"
             ]
         },
         {
@@ -737,7 +757,8 @@
                 "sharpsecdump",
                 "sharpchrome",
                 "sharpdpapi",
-                "sqlrecon"
+                "sqlrecon",
+                "sharplaps"
             ]
         }
     ]
