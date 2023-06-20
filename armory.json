@@ -108,6 +108,13 @@
             "repo_url": "https://github.com/sliverarmory/SharpRDP",
             "public_key": "RWTppYqZIoiln9Vuj7dLtPBAjt+3BjpR3t3NCJfvBlLhZqgvE4qjdqkF"
         }
+        ,
+        {
+            "name": "sharpsh",
+            "command_name": "sharpsh",
+            "repo_url": "https://github.com/sliverarmory/sharpsh",
+            "public_key": "RWQJCoPw7SY6Pf63konrmSWhqPFz29R80JfnS8YI03lcLBkc3Q0GKHid"
+        }
     ],
     "extensions": [
         {
@@ -751,7 +758,8 @@
                 "sharpmapexec",
                 "sharpersist",
                 "nopowershell",
-                "sharprdp"
+                "sharprdp",
+                "sharpsh"
             ]
         },
         {
