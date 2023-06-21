@@ -508,6 +508,12 @@
             "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
         },
         {
+            "name": "C2-Tool-Collection Psk BOF",
+            "command_name": "c2tc-psk",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
             "name": "tgtdelegation",
             "command_name": "tgtdelegation",
             "repo_url": "https://github.com/sliverarmory/tgtdelegation",
