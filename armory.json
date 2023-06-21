@@ -108,6 +108,19 @@
             "repo_url": "https://github.com/sliverarmory/SharpRDP",
             "public_key": "RWTppYqZIoiln9Vuj7dLtPBAjt+3BjpR3t3NCJfvBlLhZqgvE4qjdqkF"
         }
+        ,
+        {
+            "name": "sharpsh",
+            "command_name": "sharpsh",
+            "repo_url": "https://github.com/sliverarmory/sharpsh",
+            "public_key": "RWQJCoPw7SY6Pf63konrmSWhqPFz29R80JfnS8YI03lcLBkc3Q0GKHid"
+        },
+        {
+            "name": "Sharp Hound 4",
+            "command_name": "sharp-hound-4",
+            "repo_url": "https://github.com/sliverarmory/SharpHound4",
+            "public_key": "RWSrpKDKsndNvGKhRu6kfcjNgrr10R7edW1Md27XCtf7rvI16N95VpM4"
+        }
     ],
     "extensions": [
         {
@@ -477,6 +490,60 @@
             "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
         },
         {
+            "name": "C2-Tool-Collection Domaininfo BOF",
+            "command_name": "c2tc-domaininfo",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection KerbHash BOF",
+            "command_name": "c2tc-kerbhash",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Psc BOF",
+            "command_name": "c2tc-psc",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Psk BOF",
+            "command_name": "c2tc-psk",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Psm BOF",
+            "command_name": "c2tc-psm",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection Psx BOF",
+            "command_name": "c2tc-psx",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection SprayAD BOF",
+            "command_name": "c2tc-spray-ad",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection StartWebClient BOF",
+            "command_name": "c2tc-startwebclient",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
+            "name": "C2-Tool-Collection WdToggle BOF",
+            "command_name": "c2tc-wdtoggle",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
             "name": "tgtdelegation",
             "command_name": "tgtdelegation",
             "repo_url": "https://github.com/sliverarmory/tgtdelegation",
@@ -603,6 +670,72 @@
             "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
         },
         {
+            "name": "remote-adduser",
+            "command_name": "remote-adduser",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-addusertogroup",
+            "command_name": "remote-addusertogroup",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-lastpass",
+            "command_name": "remote-lastpass",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-office-tokens",
+            "command_name": "remote-office-tokens",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-procdump",
+            "command_name": "remote-procdump",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-reg-set",
+            "command_name": "remote-reg-set",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-schtaskscreate",
+            "command_name": "remote-schtaskscreate",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-schtasksrun",
+            "command_name": "remote-schtasksrun",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-shspawnas",
+            "command_name": "remote-shspawnas",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-suspendresume",
+            "command_name": "remote-suspendresume",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-unexpireuser",
+            "command_name": "remote-unexpireuser",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
             "name": "Keylogger",
             "command_name": "raw-keylogger",
             "repo_url": "https://github.com/sliverarmory/SliverKeylogger",
@@ -705,11 +838,20 @@
             "packages": [
                 "c2tc-addmachineaccount",
                 "c2tc-askcreds",
+                "c2tc-domaininfo",
                 "c2tc-kerberoast",
+                "c2tc-kerbhash",
                 "c2tc-lapsdump",
                 "c2tc-petitpotam",
+                "c2tc-psc",
+                "c2tc-psk",
+                "c2tc-psm",
                 "c2tc-psw",
+                "c2tc-psx",
                 "c2tc-smbinfo",
+                "c2tc-spray-ad",
+                "c2tc-startwebclient",
+                "c2tc-wdtoggle",
                 "c2tc-winver"
             ]
         },
@@ -717,21 +859,32 @@
             "name": "cs-remote-ops-bofs",
             "packages": [
                 "remote-adcs-request",
+                "remote-adduser",
+                "remote-addusertogroup",
                 "remote-chrome-key",
                 "remote-enable-user",
+                "remote-lastpass",
+                "remote-office-tokens",
+                "remote-procdump",
                 "remote-process-destroy",
                 "remote-process-list-handles",
                 "remote-reg-delete",
                 "remote-reg-save",
-                "remote-schtasks-delete",
-                "remote-schtasks-stop",
+                "remote-reg-set",
                 "remote-sc-config",
                 "remote-sc-create",
                 "remote-sc-delete",
                 "remote-sc-description",
                 "remote-sc-start",
                 "remote-sc-stop",
-                "remote-setuserpass"
+                "remote-schtasks-delete",
+                "remote-schtasks-stop",
+                "remote-schtaskscreate",
+                "remote-schtasksrun",
+                "remote-setuserpass",
+                "remote-shspawnas",
+                "remote-suspendresume",
+                "remote-unexpireuser"
             ]
         },
         {
@@ -740,7 +893,8 @@
                 "seatbelt",
                 "sharp-hound-3",
                 "sharpup",
-                "sharpview"
+                "sharpview",
+                "sharp-hound-4"
             ]
         },
         {
@@ -751,7 +905,8 @@
                 "sharpmapexec",
                 "sharpersist",
                 "nopowershell",
-                "sharprdp"
+                "sharprdp",
+                "sharpsh"
             ]
         },
         {
