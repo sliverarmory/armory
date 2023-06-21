@@ -114,6 +114,12 @@
             "command_name": "sharpsh",
             "repo_url": "https://github.com/sliverarmory/sharpsh",
             "public_key": "RWQJCoPw7SY6Pf63konrmSWhqPFz29R80JfnS8YI03lcLBkc3Q0GKHid"
+        },
+        {
+            "name": "Sharp Hound 4",
+            "command_name": "sharp-hound-4",
+            "repo_url": "https://github.com/sliverarmory/SharpHound4",
+            "public_key": "RWSrpKDKsndNvGKhRu6kfcjNgrr10R7edW1Md27XCtf7rvI16N95VpM4"
         }
     ],
     "extensions": [
@@ -747,7 +753,8 @@
                 "seatbelt",
                 "sharp-hound-3",
                 "sharpup",
-                "sharpview"
+                "sharpview",
+                "sharp-hound-4"
             ]
         },
         {
