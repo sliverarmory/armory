@@ -746,6 +746,12 @@
             "command_name": "azbelt",
             "repo_url": "https://github.com/sliverarmory/azbelt",
             "public_key": "RWQCUmz4TJGL6TqwyavQglfJHkvt0s/x09XI5GOslaebPZLVVJnOCmLD"
+        },
+        {
+            "name": "winrm",
+            "command_name": "winrm",
+            "repo_url": "https://github.com/sliverarmory/winrmdll-sliver",
+            "public_key": "RWSJ7R+SWl07CHFJc0/EISI13VYDIWbgU+caunVW9sIZfZZHJAjIsbS0"
         }
     ],
     "bundles": [
@@ -771,7 +777,8 @@
             "name": "windows-pivot",
             "packages": [
                 "scshell",
-                "bof-servicemove"
+                "bof-servicemove",
+                "winrm"
             ]
         },
         {
