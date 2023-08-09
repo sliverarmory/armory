@@ -752,6 +752,12 @@
             "command_name": "winrm",
             "repo_url": "https://github.com/sliverarmory/winrmdll-sliver",
             "public_key": "RWSJ7R+SWl07CHFJc0/EISI13VYDIWbgU+caunVW9sIZfZZHJAjIsbS0"
+        },
+        {
+            "name": "hashdump",
+            "command_name": "hashdump",
+            "repo_url": "https://github.com/sliverarmory/hashdump",
+            "public_key": "RWTh1yHjC7SqdX88YUPr0mwyWQpJPJf45rnquCfLl5McmSoxX1JMHvOG"
         }
     ],
     "bundles": [
