@@ -120,6 +120,12 @@
             "command_name": "sharp-hound-4",
             "repo_url": "https://github.com/sliverarmory/SharpHound4",
             "public_key": "RWSrpKDKsndNvGKhRu6kfcjNgrr10R7edW1Md27XCtf7rvI16N95VpM4"
+        },
+        {
+            "name": "SharpSCCM",
+            "command_name": "sharpsccm",
+            "repo_url": "https://github.com/sliverarmory/SharpSCCM",
+            "public_key": "RWS7aZWdT/6qXaJa5OWigdMrJ2zE8v5t/bQkGLcNSNrRAo0Cs9jhdnNx"
         }
     ],
     "extensions": [
@@ -919,7 +925,8 @@
                 "sharpersist",
                 "nopowershell",
                 "sharprdp",
-                "sharpsh"
+                "sharpsh",
+                "sharpsccm"
             ]
         },
         {
