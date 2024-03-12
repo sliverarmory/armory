@@ -550,6 +550,12 @@
             "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
         },
         {
+            "name": "C2-Tool-Collection Klist BOF",
+            "command_name": "c2tc-klist",
+            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+        },
+        {
             "name": "tgtdelegation",
             "command_name": "tgtdelegation",
             "repo_url": "https://github.com/sliverarmory/tgtdelegation",
@@ -860,6 +866,7 @@
                 "c2tc-domaininfo",
                 "c2tc-kerberoast",
                 "c2tc-kerbhash",
+                "c2tc-klist",
                 "c2tc-lapsdump",
                 "c2tc-petitpotam",
                 "c2tc-psc",
