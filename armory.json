@@ -748,6 +748,30 @@
             "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
         },
         {
+            "name": "remote-get_priv",
+            "command_name": "remote-get_priv",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-ghost_task",
+            "command_name": "remote-ghost_task",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-sc_failure",
+            "command_name": "remote-sc_failure",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-slack_cookie",
+            "command_name": "remote-slack_cookie",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
             "name": "Keylogger",
             "command_name": "raw-keylogger",
             "repo_url": "https://github.com/sliverarmory/SliverKeylogger",
@@ -910,7 +934,11 @@
                 "remote-setuserpass",
                 "remote-shspawnas",
                 "remote-suspendresume",
-                "remote-unexpireuser"
+                "remote-unexpireuser",
+                "remote-get_priv",
+                "remote-ghost_task",
+                "remote-sc_failure",
+                "remote-slack_cookie"
             ]
         },
         {
