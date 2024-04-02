@@ -406,6 +406,84 @@
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
+            "name": "sa-env",
+            "command_name": "sa-env",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-get-netsession2",
+            "command_name": "sa-get-netsession2",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-list_firewall_rules",
+            "command_name": "sa-list_firewall_rules",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-locale",
+            "command_name": "sa-locale",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netlocalgroup2",
+            "command_name": "sa-netlocalgroup2",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netloggedon",
+            "command_name": "sa-netloggedon",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netloggedon2",
+            "command_name": "sa-netloggedon2",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-nettime",
+            "command_name": "sa-nettime",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netuptime",
+            "command_name": "sa-netuptime",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-ldapsearch",
+            "command_name": "sa-ldapsearch",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-notepad",
+            "command_name": "sa-notepad",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-probe",
+            "command_name": "sa-probe",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-regsession",
+            "command_name": "sa-regsession",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
             "name": "ChromiumKeyDump",
             "command_name": "chromiumkeydump",
             "repo_url": "https://github.com/sliverarmory/bof-collection",
@@ -879,7 +957,20 @@
                 "sa-vssenum",
                 "sa-whoami",
                 "sa-windowlist",
-                "sa-wmi-query"
+                "sa-wmi-query",
+                "sa-env",
+                "sa-get-netsession2",
+                "sa-list_firewall_rules",
+                "sa-locale",
+                "sa-netlocalgroup2",
+                "sa-netloggedon",
+                "sa-netloggedon2",
+                "sa-nettime",
+                "sa-netuptime",
+                "sa-ldapsearch",
+                "sa-notepad",
+                "sa-probe",
+                "sa-regsession"
             ]
         },
         {
