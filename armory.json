@@ -878,6 +878,12 @@
             "command_name": "patchit",
             "repo_url": "https://github.com/sliverarmory/BOF-patchit",
             "public_key": "RWQhRUp9UkE8nXlKTw+hpTg8fm0kJQpNDXy0gTpS/3Uw6+TPjM6jlxhy"
+        },
+        {
+            "name": "threadless-inject",
+            "command_name": "threadless-inject",
+            "repo_url": "https://github.com/sliverarmory/ThreadlessInject-BOF",
+            "public_key": "RWQb8kihJmahzcrXdqyTgIzOlKOGkMy41Jw99LgbLIPP/fumtFxN5nGc"
         }
     ],
     "bundles": [
@@ -921,7 +927,8 @@
             "packages": [
                 "hollow",
                 "secinject",
-                "syscalls_shinject"
+                "syscalls_shinject",
+                "threadless-inject"
             ]
         },
         {
