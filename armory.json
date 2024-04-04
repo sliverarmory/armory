@@ -872,6 +872,12 @@
             "command_name": "hashdump",
             "repo_url": "https://github.com/sliverarmory/hashdump",
             "public_key": "RWTh1yHjC7SqdX88YUPr0mwyWQpJPJf45rnquCfLl5McmSoxX1JMHvOG"
+        },
+        {
+            "name": "patchit",
+            "command_name": "patchit",
+            "repo_url": "https://github.com/sliverarmory/BOF-patchit",
+            "public_key": "RWQhRUp9UkE8nXlKTw+hpTg8fm0kJQpNDXy0gTpS/3Uw6+TPjM6jlxhy"
         }
     ],
     "bundles": [
@@ -906,7 +912,8 @@
             "packages": [
                 "inject-etw-bypass",
                 "inject-amsi-bypass",
-                "unhook-bof"
+                "unhook-bof",
+                "patchit"
             ]
         },
         {
