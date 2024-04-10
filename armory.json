@@ -1,1092 +1,1070 @@
 {
-    "aliases": [
-        {
-            "name": "KrbRelayUp",
-            "command_name": "krbrelayup",
-            "repo_url": "https://github.com/sliverarmory/KrbRelayUp",
-            "public_key": "RWSb+wh5vrLX/IOdjwSu9yJeGtmG6OVKWflgvfdWpjKipFLl2oBNbEd7"
-        },
-        {
-            "name": "Rubeus",
-            "command_name": "rubeus",
-            "repo_url": "https://github.com/sliverarmory/Rubeus",
-            "public_key": "RWTth26WXm/AKi8aDFVQojlwoPk39DczuYK/d0BUTL64P2GsUVEYhB6O"
-        },
-        {
-            "name": "Seatbelt",
-            "command_name": "seatbelt",
-            "repo_url": "https://github.com/sliverarmory/Seatbelt",
-            "public_key": "RWTZU7ZWqhI5GrQHBX4wWGmJ4YvLQtBWFM/CPInX0qioeULtcPLVRwvn"
-        },
-        {
-            "name": "Certify",
-            "command_name": "certify",
-            "repo_url": "https://github.com/sliverarmory/Certify",
-            "public_key": "RWSuThUM+rbkd/D0mZoP+xOb8REbKzPYlb0bgvriH4AduO/bI0ZGC+U4"
-        },
-        {
-            "name": "Sharp SMBExec",
-            "command_name": "sharp-smbexec",
-            "repo_url": "https://github.com/sliverarmory/Sharp-SMBExec",
-            "public_key": "RWTzbWTprptWnmspTQwcI1TtQEtzC7UAMpFdEnqUKoqoWaH/90AF7rAX"
-        },
-        {
-            "name": "Sharp WMI",
-            "command_name": "sharp-wmi",
-            "repo_url": "https://github.com/sliverarmory/SharpWMI",
-            "public_key": "RWQWeNAuBZoUij0WVFFJiY9XW8+mZ3JOkSVBXnsgMbgl3h7sm69tZbbO"
-        },
-        {
-            "name": "Sharp Hound 3",
-            "command_name": "sharp-hound-3",
-            "repo_url": "https://github.com/sliverarmory/SharpHound3",
-            "public_key": "RWRtfmkEkEa+VUsK0fvrCvz/zB9+cSZl50TJz9epUohCY2hfCxC9ttHy"
-        },
-        {
-            "name": "SharpMapExec",
-            "command_name": "sharpmapexec",
-            "repo_url": "https://github.com/sliverarmory/SharpMapExec",
-            "public_key": "RWTyIQGdF3eiTV+6+697f86vwZgFrrNDrD3pUezaAlCTJQYlNW7qBBbS"
-        },
-        {
-            "name": "SharpSecDump",
-            "command_name": "sharpsecdump",
-            "repo_url": "https://github.com/sliverarmory/SharpSecDump",
-            "public_key": "RWRZah+ob0iboc9lgN8Ptfc2QAltzhYI8p/u8CvIKs+nTqg0qY6LpQmZ"
-        },
-        {
-            "name": "nopowershell",
-            "command_name": "nps",
-            "repo_url": "https://github.com/sliverarmory/nopowershell",
-            "public_key": "RWRZAQd8e5n+PqVo0P60o2njMPNLuXcQ+hRUZR44Enq047zKSHwb0l7d"
-        },
-        {
-            "name": "SharpUp",
-            "command_name": "sharpup",
-            "repo_url": "https://github.com/sliverarmory/SharpUp",
-            "public_key": "RWQHZhQyw84p2y5DTIN+gHNuocI28fIR5v+G2DjuqkTvRbAgipD6kuJV"
-        },
-        {
-            "name": "SharPersist",
-            "command_name": "sharpersist",
-            "repo_url": "https://github.com/sliverarmory/SharPersist",
-            "public_key": "RWQoaoDKubhSD8hHSrbuJYhjN+NMXIM9BhWhHB5UXQYPAcgbXsqBRROw"
-        },
-        {
-            "name": "SharpChrome",
-            "command_name": "sharpchrome",
-            "repo_url": "https://github.com/sliverarmory/SharpDPAPI",
-            "public_key": "RWS0mEsJiGoarMXFqPwlX9qXr7R/r6DiIewOLvribhBXDdhC2cop0Izf"
-        },
-        {
-            "name": "SharpDPAPI",
-            "command_name": "sharpdpapi",
-            "repo_url": "https://github.com/sliverarmory/SharpDPAPI",
-            "public_key": "RWS0mEsJiGoarMXFqPwlX9qXr7R/r6DiIewOLvribhBXDdhC2cop0Izf"
-        },
-        {
-            "name": "SQLRecon",
-            "command_name": "sqlrecon",
-            "repo_url": "https://github.com/sliverarmory/SQLRecon",
-            "public_key": "RWSvFT0pAS/CZFS8VvvC0SyQ4A/DJ18LP8yJZp+U2mWhjoawQ9ras0Jl"
-        },
-        {
-            "name": "SharpLAPS",
-            "command_name": "sharplaps",
-            "repo_url": "https://github.com/sliverarmory/SharpLAPS",
-            "public_key": "RWSSrwXMkfGmw8jbX1mYSRTRp5F+D46bNXSFZTmwGQ2f9QzC6YXe14gU"
-        },
-        {
-            "name": "SharpView",
-            "command_name": "sharpview",
-            "repo_url": "https://github.com/sliverarmory/SharpView",
-            "public_key": "RWSBkgNHbFrYPJAhEG6oK8hejcoUwlOax/l/dVygVbscPvT5L6Cu3sWw"
-        },
-        {
-            "name": "SharpRDP",
-            "command_name": "sharprdp",
-            "repo_url": "https://github.com/sliverarmory/SharpRDP",
-            "public_key": "RWTppYqZIoiln9Vuj7dLtPBAjt+3BjpR3t3NCJfvBlLhZqgvE4qjdqkF"
-        }
-        ,
-        {
-            "name": "sharpsh",
-            "command_name": "sharpsh",
-            "repo_url": "https://github.com/sliverarmory/sharpsh",
-            "public_key": "RWQJCoPw7SY6Pf63konrmSWhqPFz29R80JfnS8YI03lcLBkc3Q0GKHid"
-        },
-        {
-            "name": "Sharp Hound 4",
-            "command_name": "sharp-hound-4",
-            "repo_url": "https://github.com/sliverarmory/SharpHound4",
-            "public_key": "RWSrpKDKsndNvGKhRu6kfcjNgrr10R7edW1Md27XCtf7rvI16N95VpM4"
-        },
-        {
-            "name": "SharpSCCM",
-            "command_name": "sharpsccm",
-            "repo_url": "https://github.com/sliverarmory/SharpSCCM",
-            "public_key": "RWS7aZWdT/6qXaJa5OWigdMrJ2zE8v5t/bQkGLcNSNrRAo0Cs9jhdnNx"
-        }
-    ],
-    "extensions": [
-        {
-            "name": "COFF Loader",
-            "command_name": "coff-loader",
-            "repo_url": "https://github.com/sliverarmory/COFFLoader",
-            "public_key": "RWS76vh9dCN1PXI/+xiuXPdDFAM+lI0+AT44AmrISFSbuT/EVsoRS+a0"
-        },
-        {
-            "name": "Nano Dump",
-            "command_name": "nanodump",
-            "repo_url": "https://github.com/sliverarmory/nanodump",
-            "public_key": "RWRftt+kvCADbGXc9qe8q1OAkGy5C8lWVrzUVoT3DCH0hJ6uCuzmc0fk"
-        },
-        {
-            "name": "CredMan",
-            "command_name": "credman",
-            "repo_url": "https://github.com/sliverarmory/CredManBOF",
-            "public_key": "RWTGTuUsXkcGbS26sLXUP4TSF/2DdWVdWC1+qb9P9bX+zO5N+A4i5us4"
-        },
-        {
-            "name": "Inject ETW Bypass",
-            "command_name": "inject-etw-bypass",
-            "repo_url": "https://github.com/sliverarmory/InjectEtwBypass",
-            "public_key": "RWSF8tXGXrAzwUcjXE5eFFMj8bdGftD/rY+eWc/eQKUTeS99jBCThRgr"
-        },
-        {
-            "name": "Inject AMSI Bypass",
-            "command_name": "inject-amsi-bypass",
-            "repo_url": "https://github.com/sliverarmory/InjectAmsiBypass",
-            "public_key": "RWTPC+E0Btp82ARPNT5GjCJW/Xy+8N+ey4eUTL+D36dctLz99tIdeUQj"
-        },
-        {
-            "name": "Find Module",
-            "command_name": "find-module",
-            "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
-            "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
-        },
-        {
-            "name": "Find Proc Handle",
-            "command_name": "find-proc-handle",
-            "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
-            "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
-        },
-        {
-            "name": "BOF Roast",
-            "command_name": "bof-roast",
-            "repo_url": "https://github.com/sliverarmory/BofRoast",
-            "public_key": "RWRgRJAS+Nae5U5ThhqgFdedx+Fpfm+eYCXkx9gHCzd0em1djrupBaEg"
-        },
-        {
-            "name": "ADCS Enum",
-            "command_name": "sa-adcs-enum",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "ADCS Enum COM",
-            "command_name": "sa-adcs-enum-com",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "ADCS Enum COM2",
-            "command_name": "sa-adcs-enum-com2",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Adv Audit Policies",
-            "command_name": "sa-adv-audit-policies",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "ARP",
-            "command_name": "sa-arp",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Cacls",
-            "command_name": "sa-cacls",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Driver Sigs",
-            "command_name": "sa-driversigs",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Enum Filter Driver",
-            "command_name": "sa-enum-filter-driver",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Enum Local Sessions",
-            "command_name": "sa-enum-local-sessions",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Find Loaded Module",
-            "command_name": "sa-find-loaded-module",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Get Password Policy",
-            "command_name": "sa-get-password-policy",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Get NetSession",
-            "command_name": "sa-get-netsession",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "IP Config",
-            "command_name": "sa-ipconfig",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "LDAP Search",
-            "command_name": "sa-ldapsearch",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "List DNS",
-            "command_name": "sa-listdns",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "List Modules",
-            "command_name": "sa-listmods",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Net Group",
-            "command_name": "sa-netgroup",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Net Local Group",
-            "command_name": "sa-netlocalgroup",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Net Shares",
-            "command_name": "sa-netshares",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Net Stat",
-            "command_name": "sa-netstat",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Net View",
-            "command_name": "sa-netview",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Nslookup",
-            "command_name": "sa-nslookup",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Reg Query",
-            "command_name": "sa-reg-query",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Routeprint",
-            "command_name": "sa-routeprint",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Sc Enum",
-            "command_name": "sa-sc-enum",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Sc Qc",
-            "command_name": "sa-sc-qc",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Sc Qdescription",
-            "command_name": "sa-sc-qdescription",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Sc Qfailure",
-            "command_name": "sa-sc-qfailure",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Sc Qtriggerinfo",
-            "command_name": "sa-sc-qtriggerinfo",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Sc Query",
-            "command_name": "sa-sc-query",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "schtasksenum",
-            "command_name": "sa-schtasksenum",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "schtasksquery",
-            "command_name": "sa-schtasksquery",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Tasklist",
-            "command_name": "sa-tasklist",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Uptime",
-            "command_name": "sa-uptime",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Vssenum",
-            "command_name": "sa-vssenum",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Whoami",
-            "command_name": "sa-whoami",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Windowlist",
-            "command_name": "sa-windowlist",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "Wmi Query",
-            "command_name": "sa-wmi-query",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-env",
-            "command_name": "sa-env",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-get-netsession2",
-            "command_name": "sa-get-netsession2",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-list_firewall_rules",
-            "command_name": "sa-list_firewall_rules",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-locale",
-            "command_name": "sa-locale",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-netlocalgroup2",
-            "command_name": "sa-netlocalgroup2",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-netloggedon",
-            "command_name": "sa-netloggedon",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-netloggedon2",
-            "command_name": "sa-netloggedon2",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-nettime",
-            "command_name": "sa-nettime",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-netuptime",
-            "command_name": "sa-netuptime",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-ldapsearch",
-            "command_name": "sa-ldapsearch",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-notepad",
-            "command_name": "sa-notepad",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-probe",
-            "command_name": "sa-probe",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "sa-regsession",
-            "command_name": "sa-regsession",
-            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
-            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
-        },
-        {
-            "name": "ChromiumKeyDump",
-            "command_name": "chromiumkeydump",
-            "repo_url": "https://github.com/sliverarmory/bof-collection",
-            "public_key": "RWSN/EmkY2pASCHFwyP7aS0fO7sb6cq7KP3NNHWRq/bzKF0jZABv8BvA"
-        },
-        {
-            "name": "HandleKatz_BOF",
-            "command_name": "handlekatz",
-            "repo_url": "https://github.com/sliverarmory/HandleKatz_BOF",
-            "public_key": "RWRf3fkrlfYhjX/yAw0bsDDX6KQUOfiqmfPMqxJ0o0EfMVqSrQJcw8QQ"
-        },
-        {
-            "name": "LdapSignCheck",
-            "command_name": "ldapsigncheck",
-            "repo_url": "https://github.com/sliverarmory/LdapSignCheck",
-            "public_key": "RWQYjHn4JYThXQE7N13FstjBzDERt/Hhd72hV/hFuPG4RAZZteOttf1o"
-        },
-        {
-            "name": "Unhook BOF",
-            "command_name": "unhook-bof",
-            "repo_url": "https://github.com/sliverarmory/unhook-bof",
-            "public_key": "RWTfJUbkhmANsG740AhAuvsBY1hGaiMQYPq3DxZcT2zYQZ1sMbRnDsP+"
-        },
-        {
-            "name": "hollow",
-            "command_name": "hollow",
-            "repo_url": "https://github.com/sliverarmory/hollow",
-            "public_key": "RWQPThFN80cr30q2UqF99+YJFZBOH1DoWi9PewURBIp1KD/A37IT8S7W"
-        },
-        {
-            "name": "secinject",
-            "command_name": "secinject",
-            "repo_url": "https://github.com/sliverarmory/secinject",
-            "public_key": "RWTuSv5qvs1adchtXS0stvDeORK3wXVo3dAInfcAxNdsJ6ix2pPB0hMD"
-        },
-        {
-            "name": "Delegation BOF",
-            "command_name": "delegationbof",
-            "repo_url": "https://github.com/sliverarmory/DelegationBOF",
-            "public_key": "RWSzonsCJJ38uhlR4jbMa6B7LhHZ315JkOG0Jsw5V94NM5iv6m/qTQCm"
-        },
-        {
-            "name": "C2-Tool-Collection Askcreds BOF",
-            "command_name": "c2tc-askcreds",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Kerberoast BOF",
-            "command_name": "c2tc-kerberoast",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Psw BOF",
-            "command_name": "c2tc-psw",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Smbinfo BOF",
-            "command_name": "c2tc-smbinfo",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Winver BOF",
-            "command_name": "c2tc-winver",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection AddMachineAccount BOF",
-            "command_name": "c2tc-addmachineaccount",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Lapsdump BOF",
-            "command_name": "c2tc-lapsdump",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection PetitPotam BOF",
-            "command_name": "c2tc-petitpotam",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Domaininfo BOF",
-            "command_name": "c2tc-domaininfo",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection KerbHash BOF",
-            "command_name": "c2tc-kerbhash",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Psc BOF",
-            "command_name": "c2tc-psc",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Psk BOF",
-            "command_name": "c2tc-psk",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Psm BOF",
-            "command_name": "c2tc-psm",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Psx BOF",
-            "command_name": "c2tc-psx",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection SprayAD BOF",
-            "command_name": "c2tc-spray-ad",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection StartWebClient BOF",
-            "command_name": "c2tc-startwebclient",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection WdToggle BOF",
-            "command_name": "c2tc-wdtoggle",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "C2-Tool-Collection Klist BOF",
-            "command_name": "c2tc-klist",
-            "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
-            "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
-        },
-        {
-            "name": "tgtdelegation",
-            "command_name": "tgtdelegation",
-            "repo_url": "https://github.com/sliverarmory/tgtdelegation",
-            "public_key": "RWRkoeERRaeV81FHsxqwHvz9AFJ/GrX7Km1EPoEtXmCdOYUyELtdpVIE"
-        },
-        {
-            "name": "scshell",
-            "command_name": "scshell",
-            "repo_url": "https://github.com/sliverarmory/SCShell",
-            "public_key": "RWQQ/PVOzVMSOYt2bASGJyuLXqpPJQ4VhL8ZGcYn9tBx6mu3/L9osdEs"
-        },
-        {
-            "name": "bof-servicemove",
-            "command_name": "bof-servicemove",
-            "repo_url": "https://github.com/sliverarmory/ServiceMove-BOF",
-            "public_key": "RWRkGH1ddtfCXPyrJi1iCVQdS7kw6+QRekp1zKu7Su/KMzEDj0/DzeTE"
-        },
-        {
-            "name": "Syscalls Shellcode Inject",
-            "command_name": "syscalls_shinject",
-            "repo_url": "https://github.com/sliverarmory/BOFs",
-            "public_key": "RWS3pUfl/3Kb6A3F69YmQe3SmhSU1s5+wt3Z3tgX1IiDHpIMqKjY8/Qu"
-        },
-        {
-            "name": "InlineExecute-Assembly",
-            "command_name": "inline-execute-assembly",
-            "repo_url": "https://github.com/sliverarmory/InlineExecute-Assembly",
-            "public_key": "RWRtW3fCRENY2BQ664A0Ko76/Jlh6ZLZvA3bbt20ky1TuLWlh41QQCF1"
-        },
-        {
-            "name": "remote-adcs-request",
-            "command_name": "remote-adcs-request",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-chrome-key",
-            "command_name": "remote-chrome-key",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-enable-user",
-            "command_name": "remote-enable-user",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-process-destroy",
-            "command_name": "remote-process-destroy",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-process-list-handles",
-            "command_name": "remote-process-list-handles",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-reg-delete",
-            "command_name": "remote-reg-delete",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-reg-save",
-            "command_name": "remote-reg-save",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-schtasks-delete",
-            "command_name": "remote-schtasks-delete",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-schtasks-stop",
-            "command_name": "remote-schtasks-stop",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-sc-config",
-            "command_name": "remote-sc-config",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-sc-create",
-            "command_name": "remote-sc-create",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-sc-delete",
-            "command_name": "remote-sc-delete",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-sc-description",
-            "command_name": "remote-sc-description",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-sc-start",
-            "command_name": "remote-sc-start",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-sc-stop",
-            "command_name": "remote-sc-stop",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-setuserpass",
-            "command_name": "remote-setuserpass",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-adduser",
-            "command_name": "remote-adduser",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-addusertogroup",
-            "command_name": "remote-addusertogroup",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-lastpass",
-            "command_name": "remote-lastpass",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-office-tokens",
-            "command_name": "remote-office-tokens",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-procdump",
-            "command_name": "remote-procdump",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-reg-set",
-            "command_name": "remote-reg-set",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-schtaskscreate",
-            "command_name": "remote-schtaskscreate",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-schtasksrun",
-            "command_name": "remote-schtasksrun",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-shspawnas",
-            "command_name": "remote-shspawnas",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-suspendresume",
-            "command_name": "remote-suspendresume",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-unexpireuser",
-            "command_name": "remote-unexpireuser",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-get_priv",
-            "command_name": "remote-get_priv",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-ghost_task",
-            "command_name": "remote-ghost_task",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-sc_failure",
-            "command_name": "remote-sc_failure",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "remote-slack_cookie",
-            "command_name": "remote-slack_cookie",
-            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
-            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
-        },
-        {
-            "name": "Keylogger",
-            "command_name": "raw-keylogger",
-            "repo_url": "https://github.com/sliverarmory/SliverKeylogger",
-            "public_key": "RWSSZAU2J83hqtNtSZigjU4PWcII3XYLP8KCvCJbxJUO8ax1GWTsdHYK"
-        },
-        {
-            "name": "azbelt",
-            "command_name": "azbelt",
-            "repo_url": "https://github.com/sliverarmory/azbelt",
-            "public_key": "RWQCUmz4TJGL6TqwyavQglfJHkvt0s/x09XI5GOslaebPZLVVJnOCmLD"
-        },
-        {
-            "name": "winrm",
-            "command_name": "winrm",
-            "repo_url": "https://github.com/sliverarmory/winrmdll-sliver",
-            "public_key": "RWSJ7R+SWl07CHFJc0/EISI13VYDIWbgU+caunVW9sIZfZZHJAjIsbS0"
-        },
-        {
-            "name": "hashdump",
-            "command_name": "hashdump",
-            "repo_url": "https://github.com/sliverarmory/hashdump",
-            "public_key": "RWTh1yHjC7SqdX88YUPr0mwyWQpJPJf45rnquCfLl5McmSoxX1JMHvOG"
-        },
-        {
-            "name": "patchit",
-            "command_name": "patchit",
-            "repo_url": "https://github.com/sliverarmory/BOF-patchit",
-            "public_key": "RWQhRUp9UkE8nXlKTw+hpTg8fm0kJQpNDXy0gTpS/3Uw6+TPjM6jlxhy"
-        },
-        {
-            "name": "threadless-inject",
-            "command_name": "threadless-inject",
-            "repo_url": "https://github.com/sliverarmory/ThreadlessInject-BOF",
-            "public_key": "RWQb8kihJmahzcrXdqyTgIzOlKOGkMy41Jw99LgbLIPP/fumtFxN5nGc"
-        }
-    ],
-    "bundles": [
-        {
-            "name": "windows-credentials",
-            "packages": [
-                "nanodump",
-                "credman",
-                "chromiumkeydump",
-                "handlekatz"
-            ]
-        },
-        {
-            "name": "kerberos",
-            "packages": [
-                "bof-roast",
-                "delegationbof",
-                "c2tc-kerberoast",
-                "tgtdelegation"
-            ]
-        },
-        {
-            "name": "windows-pivot",
-            "packages": [
-                "scshell",
-                "bof-servicemove",
-                "winrm"
-            ]
-        },
-        {
-            "name": "windows-bypass",
-            "packages": [
-                "inject-etw-bypass",
-                "inject-amsi-bypass",
-                "unhook-bof",
-                "patchit"
-            ]
-        },
-        {
-            "name": "windows-inject",
-            "packages": [
-                "hollow",
-                "secinject",
-                "syscalls_shinject",
-                "threadless-inject"
-            ]
-        },
-        {
-            "name": "situational-awareness",
-            "packages": [
-                "sa-adcs-enum",
-                "sa-adcs-enum-com",
-                "sa-adcs-enum-com2",
-                "sa-adv-audit-policies",
-                "sa-arp",
-                "sa-cacls",
-                "sa-driversigs",
-                "sa-enum-filter-driver",
-                "sa-enum-local-sessions",
-                "sa-find-loaded-module",
-                "sa-get-password-policy",
-                "sa-get-netsession",
-                "sa-ipconfig",
-                "sa-ldapsearch",
-                "sa-listdns",
-                "sa-listmods",
-                "sa-netgroup",
-                "sa-netlocalgroup",
-                "sa-netshares",
-                "sa-netstat",
-                "sa-netview",
-                "sa-nslookup",
-                "sa-reg-query",
-                "sa-routeprint",
-                "sa-sc-enum",
-                "sa-sc-qc",
-                "sa-sc-qdescription",
-                "sa-sc-qfailure",
-                "sa-sc-qtriggerinfo",
-                "sa-sc-query",
-                "sa-schtasksenum",
-                "sa-schtasksquery",
-                "sa-tasklist",
-                "sa-uptime",
-                "sa-vssenum",
-                "sa-whoami",
-                "sa-windowlist",
-                "sa-wmi-query",
-                "sa-env",
-                "sa-get-netsession2",
-                "sa-list_firewall_rules",
-                "sa-locale",
-                "sa-netlocalgroup2",
-                "sa-netloggedon",
-                "sa-netloggedon2",
-                "sa-nettime",
-                "sa-netuptime",
-                "sa-ldapsearch",
-                "sa-notepad",
-                "sa-probe",
-                "sa-regsession"
-            ]
-        },
-        {
-            "name": "c2-tool-collection",
-            "packages": [
-                "c2tc-addmachineaccount",
-                "c2tc-askcreds",
-                "c2tc-domaininfo",
-                "c2tc-kerberoast",
-                "c2tc-kerbhash",
-                "c2tc-klist",
-                "c2tc-lapsdump",
-                "c2tc-petitpotam",
-                "c2tc-psc",
-                "c2tc-psk",
-                "c2tc-psm",
-                "c2tc-psw",
-                "c2tc-psx",
-                "c2tc-smbinfo",
-                "c2tc-spray-ad",
-                "c2tc-startwebclient",
-                "c2tc-wdtoggle",
-                "c2tc-winver"
-            ]
-        },
-        {
-            "name": "cs-remote-ops-bofs",
-            "packages": [
-                "remote-adcs-request",
-                "remote-adduser",
-                "remote-addusertogroup",
-                "remote-chrome-key",
-                "remote-enable-user",
-                "remote-lastpass",
-                "remote-office-tokens",
-                "remote-procdump",
-                "remote-process-destroy",
-                "remote-process-list-handles",
-                "remote-reg-delete",
-                "remote-reg-save",
-                "remote-reg-set",
-                "remote-sc-config",
-                "remote-sc-create",
-                "remote-sc-delete",
-                "remote-sc-description",
-                "remote-sc-start",
-                "remote-sc-stop",
-                "remote-schtasks-delete",
-                "remote-schtasks-stop",
-                "remote-schtaskscreate",
-                "remote-schtasksrun",
-                "remote-setuserpass",
-                "remote-shspawnas",
-                "remote-suspendresume",
-                "remote-unexpireuser",
-                "remote-get_priv",
-                "remote-ghost_task",
-                "remote-sc_failure",
-                "remote-slack_cookie"
-            ]
-        },
-        {
-            "name": ".net-recon",
-            "packages": [
-                "seatbelt",
-                "sharp-hound-3",
-                "sharpup",
-                "sharpview",
-                "sharp-hound-4"
-            ]
-        },
-        {
-            "name": ".net-execute",
-            "packages": [
-                "sharp-smbexec",
-                "sharp-wmi",
-                "sharpmapexec",
-                "sharpersist",
-                "nopowershell",
-                "sharprdp",
-                "sharpsh",
-                "sharpsccm"
-            ]
-        },
-        {
-            "name": ".net-pivot",
-            "packages": [
-                "krbrelayup",
-                "rubeus",
-                "certify",
-                "sharpsecdump",
-                "sharpchrome",
-                "sharpdpapi",
-                "sqlrecon",
-                "sharplaps"
-            ]
-        },
-        {
-            "name": "azure",
-            "packages": [
-                "azbelt"
-            ]
-        }
-    ]
+  "aliases": [
+    {
+      "name": "KrbRelayUp",
+      "command_name": "krbrelayup",
+      "repo_url": "https://github.com/sliverarmory/KrbRelayUp",
+      "public_key": "RWSb+wh5vrLX/IOdjwSu9yJeGtmG6OVKWflgvfdWpjKipFLl2oBNbEd7"
+    },
+    {
+      "name": "Rubeus",
+      "command_name": "rubeus",
+      "repo_url": "https://github.com/sliverarmory/Rubeus",
+      "public_key": "RWTth26WXm/AKi8aDFVQojlwoPk39DczuYK/d0BUTL64P2GsUVEYhB6O"
+    },
+    {
+      "name": "Seatbelt",
+      "command_name": "seatbelt",
+      "repo_url": "https://github.com/sliverarmory/Seatbelt",
+      "public_key": "RWTZU7ZWqhI5GrQHBX4wWGmJ4YvLQtBWFM/CPInX0qioeULtcPLVRwvn"
+    },
+    {
+      "name": "Certify",
+      "command_name": "certify",
+      "repo_url": "https://github.com/sliverarmory/Certify",
+      "public_key": "RWSuThUM+rbkd/D0mZoP+xOb8REbKzPYlb0bgvriH4AduO/bI0ZGC+U4"
+    },
+    {
+      "name": "Sharp SMBExec",
+      "command_name": "sharp-smbexec",
+      "repo_url": "https://github.com/sliverarmory/Sharp-SMBExec",
+      "public_key": "RWTzbWTprptWnmspTQwcI1TtQEtzC7UAMpFdEnqUKoqoWaH/90AF7rAX"
+    },
+    {
+      "name": "Sharp WMI",
+      "command_name": "sharp-wmi",
+      "repo_url": "https://github.com/sliverarmory/SharpWMI",
+      "public_key": "RWQWeNAuBZoUij0WVFFJiY9XW8+mZ3JOkSVBXnsgMbgl3h7sm69tZbbO"
+    },
+    {
+      "name": "Sharp Hound 3",
+      "command_name": "sharp-hound-3",
+      "repo_url": "https://github.com/sliverarmory/SharpHound3",
+      "public_key": "RWRtfmkEkEa+VUsK0fvrCvz/zB9+cSZl50TJz9epUohCY2hfCxC9ttHy"
+    },
+    {
+      "name": "SharpMapExec",
+      "command_name": "sharpmapexec",
+      "repo_url": "https://github.com/sliverarmory/SharpMapExec",
+      "public_key": "RWTyIQGdF3eiTV+6+697f86vwZgFrrNDrD3pUezaAlCTJQYlNW7qBBbS"
+    },
+    {
+      "name": "SharpSecDump",
+      "command_name": "sharpsecdump",
+      "repo_url": "https://github.com/sliverarmory/SharpSecDump",
+      "public_key": "RWRZah+ob0iboc9lgN8Ptfc2QAltzhYI8p/u8CvIKs+nTqg0qY6LpQmZ"
+    },
+    {
+      "name": "nopowershell",
+      "command_name": "nps",
+      "repo_url": "https://github.com/sliverarmory/nopowershell",
+      "public_key": "RWRZAQd8e5n+PqVo0P60o2njMPNLuXcQ+hRUZR44Enq047zKSHwb0l7d"
+    },
+    {
+      "name": "SharpUp",
+      "command_name": "sharpup",
+      "repo_url": "https://github.com/sliverarmory/SharpUp",
+      "public_key": "RWQHZhQyw84p2y5DTIN+gHNuocI28fIR5v+G2DjuqkTvRbAgipD6kuJV"
+    },
+    {
+      "name": "SharPersist",
+      "command_name": "sharpersist",
+      "repo_url": "https://github.com/sliverarmory/SharPersist",
+      "public_key": "RWQoaoDKubhSD8hHSrbuJYhjN+NMXIM9BhWhHB5UXQYPAcgbXsqBRROw"
+    },
+    {
+      "name": "SharpChrome",
+      "command_name": "sharpchrome",
+      "repo_url": "https://github.com/sliverarmory/SharpDPAPI",
+      "public_key": "RWS0mEsJiGoarMXFqPwlX9qXr7R/r6DiIewOLvribhBXDdhC2cop0Izf"
+    },
+    {
+      "name": "SharpDPAPI",
+      "command_name": "sharpdpapi",
+      "repo_url": "https://github.com/sliverarmory/SharpDPAPI",
+      "public_key": "RWS0mEsJiGoarMXFqPwlX9qXr7R/r6DiIewOLvribhBXDdhC2cop0Izf"
+    },
+    {
+      "name": "SQLRecon",
+      "command_name": "sqlrecon",
+      "repo_url": "https://github.com/sliverarmory/SQLRecon",
+      "public_key": "RWSvFT0pAS/CZFS8VvvC0SyQ4A/DJ18LP8yJZp+U2mWhjoawQ9ras0Jl"
+    },
+    {
+      "name": "SharpLAPS",
+      "command_name": "sharplaps",
+      "repo_url": "https://github.com/sliverarmory/SharpLAPS",
+      "public_key": "RWSSrwXMkfGmw8jbX1mYSRTRp5F+D46bNXSFZTmwGQ2f9QzC6YXe14gU"
+    },
+    {
+      "name": "SharpView",
+      "command_name": "sharpview",
+      "repo_url": "https://github.com/sliverarmory/SharpView",
+      "public_key": "RWSBkgNHbFrYPJAhEG6oK8hejcoUwlOax/l/dVygVbscPvT5L6Cu3sWw"
+    },
+    {
+      "name": "SharpRDP",
+      "command_name": "sharprdp",
+      "repo_url": "https://github.com/sliverarmory/SharpRDP",
+      "public_key": "RWTppYqZIoiln9Vuj7dLtPBAjt+3BjpR3t3NCJfvBlLhZqgvE4qjdqkF"
+    },
+    {
+      "name": "sharpsh",
+      "command_name": "sharpsh",
+      "repo_url": "https://github.com/sliverarmory/sharpsh",
+      "public_key": "RWQJCoPw7SY6Pf63konrmSWhqPFz29R80JfnS8YI03lcLBkc3Q0GKHid"
+    },
+    {
+      "name": "Sharp Hound 4",
+      "command_name": "sharp-hound-4",
+      "repo_url": "https://github.com/sliverarmory/SharpHound4",
+      "public_key": "RWSrpKDKsndNvGKhRu6kfcjNgrr10R7edW1Md27XCtf7rvI16N95VpM4"
+    },
+    {
+      "name": "SharpSCCM",
+      "command_name": "sharpsccm",
+      "repo_url": "https://github.com/sliverarmory/SharpSCCM",
+      "public_key": "RWS7aZWdT/6qXaJa5OWigdMrJ2zE8v5t/bQkGLcNSNrRAo0Cs9jhdnNx"
+    }
+  ],
+  "extensions": [
+    {
+      "name": "COFF Loader",
+      "command_name": "coff-loader",
+      "repo_url": "https://github.com/sliverarmory/COFFLoader",
+      "public_key": "RWS76vh9dCN1PXI/+xiuXPdDFAM+lI0+AT44AmrISFSbuT/EVsoRS+a0"
+    },
+    {
+      "name": "Nano Dump",
+      "command_name": "nanodump",
+      "repo_url": "https://github.com/sliverarmory/nanodump",
+      "public_key": "RWRftt+kvCADbGXc9qe8q1OAkGy5C8lWVrzUVoT3DCH0hJ6uCuzmc0fk"
+    },
+    {
+      "name": "CredMan",
+      "command_name": "credman",
+      "repo_url": "https://github.com/sliverarmory/CredManBOF",
+      "public_key": "RWTGTuUsXkcGbS26sLXUP4TSF/2DdWVdWC1+qb9P9bX+zO5N+A4i5us4"
+    },
+    {
+      "name": "Inject ETW Bypass",
+      "command_name": "inject-etw-bypass",
+      "repo_url": "https://github.com/sliverarmory/InjectEtwBypass",
+      "public_key": "RWSF8tXGXrAzwUcjXE5eFFMj8bdGftD/rY+eWc/eQKUTeS99jBCThRgr"
+    },
+    {
+      "name": "Inject AMSI Bypass",
+      "command_name": "inject-amsi-bypass",
+      "repo_url": "https://github.com/sliverarmory/InjectAmsiBypass",
+      "public_key": "RWTPC+E0Btp82ARPNT5GjCJW/Xy+8N+ey4eUTL+D36dctLz99tIdeUQj"
+    },
+    {
+      "name": "Find Module",
+      "command_name": "find-module",
+      "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
+      "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
+    },
+    {
+      "name": "Find Proc Handle",
+      "command_name": "find-proc-handle",
+      "repo_url": "https://github.com/sliverarmory/FindObjects-BOF",
+      "public_key": "RWTKjKbbO8eamcTsYl0lEnBv8oobkfWG/TYSIDPRx/9JFxLRnbEtbHi1"
+    },
+    {
+      "name": "BOF Roast",
+      "command_name": "bof-roast",
+      "repo_url": "https://github.com/sliverarmory/BofRoast",
+      "public_key": "RWRgRJAS+Nae5U5ThhqgFdedx+Fpfm+eYCXkx9gHCzd0em1djrupBaEg"
+    },
+    {
+      "name": "ADCS Enum",
+      "command_name": "sa-adcs-enum",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "ADCS Enum COM",
+      "command_name": "sa-adcs-enum-com",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "ADCS Enum COM2",
+      "command_name": "sa-adcs-enum-com2",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Adv Audit Policies",
+      "command_name": "sa-adv-audit-policies",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "ARP",
+      "command_name": "sa-arp",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Cacls",
+      "command_name": "sa-cacls",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Driver Sigs",
+      "command_name": "sa-driversigs",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Enum Filter Driver",
+      "command_name": "sa-enum-filter-driver",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Enum Local Sessions",
+      "command_name": "sa-enum-local-sessions",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Find Loaded Module",
+      "command_name": "sa-find-loaded-module",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Get Password Policy",
+      "command_name": "sa-get-password-policy",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Get NetSession",
+      "command_name": "sa-get-netsession",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "IP Config",
+      "command_name": "sa-ipconfig",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "LDAP Search",
+      "command_name": "sa-ldapsearch",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "List DNS",
+      "command_name": "sa-listdns",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "List Modules",
+      "command_name": "sa-listmods",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Net Group",
+      "command_name": "sa-netgroup",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Net Local Group",
+      "command_name": "sa-netlocalgroup",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Net Shares",
+      "command_name": "sa-netshares",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Net Stat",
+      "command_name": "sa-netstat",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Net View",
+      "command_name": "sa-netview",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Nslookup",
+      "command_name": "sa-nslookup",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Reg Query",
+      "command_name": "sa-reg-query",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Routeprint",
+      "command_name": "sa-routeprint",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Sc Enum",
+      "command_name": "sa-sc-enum",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Sc Qc",
+      "command_name": "sa-sc-qc",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Sc Qdescription",
+      "command_name": "sa-sc-qdescription",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Sc Qfailure",
+      "command_name": "sa-sc-qfailure",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Sc Qtriggerinfo",
+      "command_name": "sa-sc-qtriggerinfo",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Sc Query",
+      "command_name": "sa-sc-query",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "schtasksenum",
+      "command_name": "sa-schtasksenum",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "schtasksquery",
+      "command_name": "sa-schtasksquery",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Tasklist",
+      "command_name": "sa-tasklist",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Uptime",
+      "command_name": "sa-uptime",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Vssenum",
+      "command_name": "sa-vssenum",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Whoami",
+      "command_name": "sa-whoami",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Windowlist",
+      "command_name": "sa-windowlist",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "Wmi Query",
+      "command_name": "sa-wmi-query",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-env",
+      "command_name": "sa-env",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-get-netsession2",
+      "command_name": "sa-get-netsession2",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-list_firewall_rules",
+      "command_name": "sa-list_firewall_rules",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-locale",
+      "command_name": "sa-locale",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-netlocalgroup2",
+      "command_name": "sa-netlocalgroup2",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-netloggedon",
+      "command_name": "sa-netloggedon",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-netloggedon2",
+      "command_name": "sa-netloggedon2",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-nettime",
+      "command_name": "sa-nettime",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-netuptime",
+      "command_name": "sa-netuptime",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-ldapsearch",
+      "command_name": "sa-ldapsearch",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-notepad",
+      "command_name": "sa-notepad",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-probe",
+      "command_name": "sa-probe",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "sa-regsession",
+      "command_name": "sa-regsession",
+      "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+      "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+    },
+    {
+      "name": "ChromiumKeyDump",
+      "command_name": "chromiumkeydump",
+      "repo_url": "https://github.com/sliverarmory/bof-collection",
+      "public_key": "RWSN/EmkY2pASCHFwyP7aS0fO7sb6cq7KP3NNHWRq/bzKF0jZABv8BvA"
+    },
+    {
+      "name": "HandleKatz_BOF",
+      "command_name": "handlekatz",
+      "repo_url": "https://github.com/sliverarmory/HandleKatz_BOF",
+      "public_key": "RWRf3fkrlfYhjX/yAw0bsDDX6KQUOfiqmfPMqxJ0o0EfMVqSrQJcw8QQ"
+    },
+    {
+      "name": "LdapSignCheck",
+      "command_name": "ldapsigncheck",
+      "repo_url": "https://github.com/sliverarmory/LdapSignCheck",
+      "public_key": "RWQYjHn4JYThXQE7N13FstjBzDERt/Hhd72hV/hFuPG4RAZZteOttf1o"
+    },
+    {
+      "name": "Unhook BOF",
+      "command_name": "unhook-bof",
+      "repo_url": "https://github.com/sliverarmory/unhook-bof",
+      "public_key": "RWTfJUbkhmANsG740AhAuvsBY1hGaiMQYPq3DxZcT2zYQZ1sMbRnDsP+"
+    },
+    {
+      "name": "hollow",
+      "command_name": "hollow",
+      "repo_url": "https://github.com/sliverarmory/hollow",
+      "public_key": "RWQPThFN80cr30q2UqF99+YJFZBOH1DoWi9PewURBIp1KD/A37IT8S7W"
+    },
+    {
+      "name": "secinject",
+      "command_name": "secinject",
+      "repo_url": "https://github.com/sliverarmory/secinject",
+      "public_key": "RWTuSv5qvs1adchtXS0stvDeORK3wXVo3dAInfcAxNdsJ6ix2pPB0hMD"
+    },
+    {
+      "name": "Delegation BOF",
+      "command_name": "delegationbof",
+      "repo_url": "https://github.com/sliverarmory/DelegationBOF",
+      "public_key": "RWSzonsCJJ38uhlR4jbMa6B7LhHZ315JkOG0Jsw5V94NM5iv6m/qTQCm"
+    },
+    {
+      "name": "C2-Tool-Collection Askcreds BOF",
+      "command_name": "c2tc-askcreds",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Kerberoast BOF",
+      "command_name": "c2tc-kerberoast",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Psw BOF",
+      "command_name": "c2tc-psw",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Smbinfo BOF",
+      "command_name": "c2tc-smbinfo",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Winver BOF",
+      "command_name": "c2tc-winver",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection AddMachineAccount BOF",
+      "command_name": "c2tc-addmachineaccount",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Lapsdump BOF",
+      "command_name": "c2tc-lapsdump",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection PetitPotam BOF",
+      "command_name": "c2tc-petitpotam",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Domaininfo BOF",
+      "command_name": "c2tc-domaininfo",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection KerbHash BOF",
+      "command_name": "c2tc-kerbhash",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Psc BOF",
+      "command_name": "c2tc-psc",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Psk BOF",
+      "command_name": "c2tc-psk",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Psm BOF",
+      "command_name": "c2tc-psm",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Psx BOF",
+      "command_name": "c2tc-psx",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection SprayAD BOF",
+      "command_name": "c2tc-spray-ad",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection StartWebClient BOF",
+      "command_name": "c2tc-startwebclient",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection WdToggle BOF",
+      "command_name": "c2tc-wdtoggle",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "C2-Tool-Collection Klist BOF",
+      "command_name": "c2tc-klist",
+      "repo_url": "https://github.com/sliverarmory/C2-Tool-Collection",
+      "public_key": "RWRk3J0Rkgy1659ur/iwOKJX5MvUXzl5gXlPyN0uH2RDwMYI/09RT/wj"
+    },
+    {
+      "name": "tgtdelegation",
+      "command_name": "tgtdelegation",
+      "repo_url": "https://github.com/sliverarmory/tgtdelegation",
+      "public_key": "RWRkoeERRaeV81FHsxqwHvz9AFJ/GrX7Km1EPoEtXmCdOYUyELtdpVIE"
+    },
+    {
+      "name": "scshell",
+      "command_name": "scshell",
+      "repo_url": "https://github.com/sliverarmory/SCShell",
+      "public_key": "RWQQ/PVOzVMSOYt2bASGJyuLXqpPJQ4VhL8ZGcYn9tBx6mu3/L9osdEs"
+    },
+    {
+      "name": "bof-servicemove",
+      "command_name": "bof-servicemove",
+      "repo_url": "https://github.com/sliverarmory/ServiceMove-BOF",
+      "public_key": "RWRkGH1ddtfCXPyrJi1iCVQdS7kw6+QRekp1zKu7Su/KMzEDj0/DzeTE"
+    },
+    {
+      "name": "Syscalls Shellcode Inject",
+      "command_name": "syscalls_shinject",
+      "repo_url": "https://github.com/sliverarmory/BOFs",
+      "public_key": "RWS3pUfl/3Kb6A3F69YmQe3SmhSU1s5+wt3Z3tgX1IiDHpIMqKjY8/Qu"
+    },
+    {
+      "name": "InlineExecute-Assembly",
+      "command_name": "inline-execute-assembly",
+      "repo_url": "https://github.com/sliverarmory/InlineExecute-Assembly",
+      "public_key": "RWRtW3fCRENY2BQ664A0Ko76/Jlh6ZLZvA3bbt20ky1TuLWlh41QQCF1"
+    },
+    {
+      "name": "remote-adcs-request",
+      "command_name": "remote-adcs-request",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-chrome-key",
+      "command_name": "remote-chrome-key",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-enable-user",
+      "command_name": "remote-enable-user",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-process-destroy",
+      "command_name": "remote-process-destroy",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-process-list-handles",
+      "command_name": "remote-process-list-handles",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-reg-delete",
+      "command_name": "remote-reg-delete",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-reg-save",
+      "command_name": "remote-reg-save",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-schtasks-delete",
+      "command_name": "remote-schtasks-delete",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-schtasks-stop",
+      "command_name": "remote-schtasks-stop",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-sc-config",
+      "command_name": "remote-sc-config",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-sc-create",
+      "command_name": "remote-sc-create",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-sc-delete",
+      "command_name": "remote-sc-delete",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-sc-description",
+      "command_name": "remote-sc-description",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-sc-start",
+      "command_name": "remote-sc-start",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-sc-stop",
+      "command_name": "remote-sc-stop",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-setuserpass",
+      "command_name": "remote-setuserpass",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-adduser",
+      "command_name": "remote-adduser",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-addusertogroup",
+      "command_name": "remote-addusertogroup",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-lastpass",
+      "command_name": "remote-lastpass",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-office-tokens",
+      "command_name": "remote-office-tokens",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-procdump",
+      "command_name": "remote-procdump",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-reg-set",
+      "command_name": "remote-reg-set",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-schtaskscreate",
+      "command_name": "remote-schtaskscreate",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-schtasksrun",
+      "command_name": "remote-schtasksrun",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-shspawnas",
+      "command_name": "remote-shspawnas",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-suspendresume",
+      "command_name": "remote-suspendresume",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-unexpireuser",
+      "command_name": "remote-unexpireuser",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-get_priv",
+      "command_name": "remote-get_priv",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-ghost_task",
+      "command_name": "remote-ghost_task",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-sc_failure",
+      "command_name": "remote-sc_failure",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "remote-slack_cookie",
+      "command_name": "remote-slack_cookie",
+      "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+      "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+    },
+    {
+      "name": "Keylogger",
+      "command_name": "raw-keylogger",
+      "repo_url": "https://github.com/sliverarmory/SliverKeylogger",
+      "public_key": "RWSSZAU2J83hqtNtSZigjU4PWcII3XYLP8KCvCJbxJUO8ax1GWTsdHYK"
+    },
+    {
+      "name": "winrm",
+      "command_name": "winrm",
+      "repo_url": "https://github.com/sliverarmory/winrmdll-sliver",
+      "public_key": "RWSJ7R+SWl07CHFJc0/EISI13VYDIWbgU+caunVW9sIZfZZHJAjIsbS0"
+    },
+    {
+      "name": "hashdump",
+      "command_name": "hashdump",
+      "repo_url": "https://github.com/sliverarmory/hashdump",
+      "public_key": "RWTh1yHjC7SqdX88YUPr0mwyWQpJPJf45rnquCfLl5McmSoxX1JMHvOG"
+    },
+    {
+      "name": "patchit",
+      "command_name": "patchit",
+      "repo_url": "https://github.com/sliverarmory/BOF-patchit",
+      "public_key": "RWQhRUp9UkE8nXlKTw+hpTg8fm0kJQpNDXy0gTpS/3Uw6+TPjM6jlxhy"
+    },
+    {
+      "name": "threadless-inject",
+      "command_name": "threadless-inject",
+      "repo_url": "https://github.com/sliverarmory/ThreadlessInject-BOF",
+      "public_key": "RWQb8kihJmahzcrXdqyTgIzOlKOGkMy41Jw99LgbLIPP/fumtFxN5nGc"
+    }
+  ],
+  "bundles": [
+    {
+      "name": "windows-credentials",
+      "packages": ["nanodump", "credman", "chromiumkeydump", "handlekatz"]
+    },
+    {
+      "name": "kerberos",
+      "packages": [
+        "bof-roast",
+        "delegationbof",
+        "c2tc-kerberoast",
+        "tgtdelegation"
+      ]
+    },
+    {
+      "name": "windows-pivot",
+      "packages": ["scshell", "bof-servicemove", "winrm"]
+    },
+    {
+      "name": "windows-bypass",
+      "packages": [
+        "inject-etw-bypass",
+        "inject-amsi-bypass",
+        "unhook-bof",
+        "patchit"
+      ]
+    },
+    {
+      "name": "windows-inject",
+      "packages": [
+        "hollow",
+        "secinject",
+        "syscalls_shinject",
+        "threadless-inject"
+      ]
+    },
+    {
+      "name": "situational-awareness",
+      "packages": [
+        "sa-adcs-enum",
+        "sa-adcs-enum-com",
+        "sa-adcs-enum-com2",
+        "sa-adv-audit-policies",
+        "sa-arp",
+        "sa-cacls",
+        "sa-driversigs",
+        "sa-enum-filter-driver",
+        "sa-enum-local-sessions",
+        "sa-find-loaded-module",
+        "sa-get-password-policy",
+        "sa-get-netsession",
+        "sa-ipconfig",
+        "sa-ldapsearch",
+        "sa-listdns",
+        "sa-listmods",
+        "sa-netgroup",
+        "sa-netlocalgroup",
+        "sa-netshares",
+        "sa-netstat",
+        "sa-netview",
+        "sa-nslookup",
+        "sa-reg-query",
+        "sa-routeprint",
+        "sa-sc-enum",
+        "sa-sc-qc",
+        "sa-sc-qdescription",
+        "sa-sc-qfailure",
+        "sa-sc-qtriggerinfo",
+        "sa-sc-query",
+        "sa-schtasksenum",
+        "sa-schtasksquery",
+        "sa-tasklist",
+        "sa-uptime",
+        "sa-vssenum",
+        "sa-whoami",
+        "sa-windowlist",
+        "sa-wmi-query",
+        "sa-env",
+        "sa-get-netsession2",
+        "sa-list_firewall_rules",
+        "sa-locale",
+        "sa-netlocalgroup2",
+        "sa-netloggedon",
+        "sa-netloggedon2",
+        "sa-nettime",
+        "sa-netuptime",
+        "sa-ldapsearch",
+        "sa-notepad",
+        "sa-probe",
+        "sa-regsession"
+      ]
+    },
+    {
+      "name": "c2-tool-collection",
+      "packages": [
+        "c2tc-addmachineaccount",
+        "c2tc-askcreds",
+        "c2tc-domaininfo",
+        "c2tc-kerberoast",
+        "c2tc-kerbhash",
+        "c2tc-klist",
+        "c2tc-lapsdump",
+        "c2tc-petitpotam",
+        "c2tc-psc",
+        "c2tc-psk",
+        "c2tc-psm",
+        "c2tc-psw",
+        "c2tc-psx",
+        "c2tc-smbinfo",
+        "c2tc-spray-ad",
+        "c2tc-startwebclient",
+        "c2tc-wdtoggle",
+        "c2tc-winver"
+      ]
+    },
+    {
+      "name": "cs-remote-ops-bofs",
+      "packages": [
+        "remote-adcs-request",
+        "remote-adduser",
+        "remote-addusertogroup",
+        "remote-chrome-key",
+        "remote-enable-user",
+        "remote-lastpass",
+        "remote-office-tokens",
+        "remote-procdump",
+        "remote-process-destroy",
+        "remote-process-list-handles",
+        "remote-reg-delete",
+        "remote-reg-save",
+        "remote-reg-set",
+        "remote-sc-config",
+        "remote-sc-create",
+        "remote-sc-delete",
+        "remote-sc-description",
+        "remote-sc-start",
+        "remote-sc-stop",
+        "remote-schtasks-delete",
+        "remote-schtasks-stop",
+        "remote-schtaskscreate",
+        "remote-schtasksrun",
+        "remote-setuserpass",
+        "remote-shspawnas",
+        "remote-suspendresume",
+        "remote-unexpireuser",
+        "remote-get_priv",
+        "remote-ghost_task",
+        "remote-sc_failure",
+        "remote-slack_cookie"
+      ]
+    },
+    {
+      "name": ".net-recon",
+      "packages": [
+        "seatbelt",
+        "sharp-hound-3",
+        "sharpup",
+        "sharpview",
+        "sharp-hound-4"
+      ]
+    },
+    {
+      "name": ".net-execute",
+      "packages": [
+        "sharp-smbexec",
+        "sharp-wmi",
+        "sharpmapexec",
+        "sharpersist",
+        "nopowershell",
+        "sharprdp",
+        "sharpsh",
+        "sharpsccm"
+      ]
+    },
+    {
+      "name": ".net-pivot",
+      "packages": [
+        "krbrelayup",
+        "rubeus",
+        "certify",
+        "sharpsecdump",
+        "sharpchrome",
+        "sharpdpapi",
+        "sqlrecon",
+        "sharplaps"
+      ]
+    }
+  ]
 }
