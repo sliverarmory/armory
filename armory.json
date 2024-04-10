@@ -856,12 +856,6 @@
             "public_key": "RWSSZAU2J83hqtNtSZigjU4PWcII3XYLP8KCvCJbxJUO8ax1GWTsdHYK"
         },
         {
-            "name": "azbelt",
-            "command_name": "azbelt",
-            "repo_url": "https://github.com/sliverarmory/azbelt",
-            "public_key": "RWQCUmz4TJGL6TqwyavQglfJHkvt0s/x09XI5GOslaebPZLVVJnOCmLD"
-        },
-        {
             "name": "winrm",
             "command_name": "winrm",
             "repo_url": "https://github.com/sliverarmory/winrmdll-sliver",
@@ -1080,12 +1074,6 @@
                 "sharpdpapi",
                 "sqlrecon",
                 "sharplaps"
-            ]
-        },
-        {
-            "name": "azure",
-            "packages": [
-                "azbelt"
             ]
         }
     ]
