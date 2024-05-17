@@ -878,6 +878,12 @@
             "command_name": "threadless-inject",
             "repo_url": "https://github.com/sliverarmory/ThreadlessInject-BOF",
             "public_key": "RWQb8kihJmahzcrXdqyTgIzOlKOGkMy41Jw99LgbLIPP/fumtFxN5nGc"
+        },
+        {
+            "name": "kerbrute",
+            "command_name": "kerbrute",
+            "repo_url": "https://github.com/sliverarmory/kerbrute",
+            "public_key": "RWR8t1Bebp515aKBZV5NILvxDf0eENlEbM1lSBfeKzfpS+kQDpCynmSY"
         }
     ],
     "bundles": [
@@ -896,7 +902,8 @@
                 "bof-roast",
                 "delegationbof",
                 "c2tc-kerberoast",
-                "tgtdelegation"
+                "tgtdelegation",
+                "kerbrute"
             ]
         },
         {
