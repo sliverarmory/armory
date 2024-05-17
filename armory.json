@@ -884,6 +884,12 @@
             "command_name": "kerbrute",
             "repo_url": "https://github.com/sliverarmory/kerbrute",
             "public_key": "RWR8t1Bebp515aKBZV5NILvxDf0eENlEbM1lSBfeKzfpS+kQDpCynmSY"
+        },
+        {
+            "name": "mimikatz",
+            "command_name": "mimikatz",
+            "repo_url": "https://github.com/sliverarmory/mimikatz",
+            "public_key": "RWQoTq429Swu8XK1KoKvcI4YDByEdI+QMMh+ZIdZha8qR/1sGewzJwPW"
         }
     ],
     "bundles": [
@@ -893,7 +899,8 @@
                 "nanodump",
                 "credman",
                 "chromiumkeydump",
-                "handlekatz"
+                "handlekatz",
+                "mimikatz"
             ]
         },
         {
