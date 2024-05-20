@@ -890,6 +890,18 @@
             "command_name": "mimikatz",
             "repo_url": "https://github.com/sliverarmory/mimikatz",
             "public_key": "RWQoTq429Swu8XK1KoKvcI4YDByEdI+QMMh+ZIdZha8qR/1sGewzJwPW"
+        },
+        {
+            "name": "jump-wmiexec",
+            "command_name": "jump-wmiexec",
+            "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
+            "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
+        },
+        {
+            "name": "jump-psexec",
+            "command_name": "jump-psexec",
+            "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
+            "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
         }
     ],
     "bundles": [
@@ -918,7 +930,9 @@
             "packages": [
                 "scshell",
                 "bof-servicemove",
-                "winrm"
+                "winrm",
+                "jump-wmiexec",
+                "jump-psexec"
             ]
         },
         {
