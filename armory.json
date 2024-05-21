@@ -878,6 +878,30 @@
             "command_name": "threadless-inject",
             "repo_url": "https://github.com/sliverarmory/ThreadlessInject-BOF",
             "public_key": "RWQb8kihJmahzcrXdqyTgIzOlKOGkMy41Jw99LgbLIPP/fumtFxN5nGc"
+        },
+        {
+            "name": "kerbrute",
+            "command_name": "kerbrute",
+            "repo_url": "https://github.com/sliverarmory/kerbrute",
+            "public_key": "RWR8t1Bebp515aKBZV5NILvxDf0eENlEbM1lSBfeKzfpS+kQDpCynmSY"
+        },
+        {
+            "name": "mimikatz",
+            "command_name": "mimikatz",
+            "repo_url": "https://github.com/sliverarmory/mimikatz",
+            "public_key": "RWQoTq429Swu8XK1KoKvcI4YDByEdI+QMMh+ZIdZha8qR/1sGewzJwPW"
+        },
+        {
+            "name": "jump-wmiexec",
+            "command_name": "jump-wmiexec",
+            "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
+            "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
+        },
+        {
+            "name": "jump-psexec",
+            "command_name": "jump-psexec",
+            "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
+            "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
         }
     ],
     "bundles": [
@@ -887,7 +911,8 @@
                 "nanodump",
                 "credman",
                 "chromiumkeydump",
-                "handlekatz"
+                "handlekatz",
+                "mimikatz"
             ]
         },
         {
@@ -896,7 +921,8 @@
                 "bof-roast",
                 "delegationbof",
                 "c2tc-kerberoast",
-                "tgtdelegation"
+                "tgtdelegation",
+                "kerbrute"
             ]
         },
         {
@@ -904,7 +930,9 @@
             "packages": [
                 "scshell",
                 "bof-servicemove",
-                "winrm"
+                "winrm",
+                "jump-wmiexec",
+                "jump-psexec"
             ]
         },
         {
