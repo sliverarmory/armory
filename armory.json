@@ -850,6 +850,78 @@
             "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
         },
         {
+            "name": "inject-tooltip",
+            "command_name": "inject-tooltip",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-kernelcallbacktable",
+            "command_name": "inject-kernelcallbacktable",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-uxsubclassinfo",
+            "command_name": "inject-uxsubclassinfo",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-ntcreatethread",
+            "command_name": "inject-ntcreatethread",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-dde",
+            "command_name": "inject-dde",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-ntqueueapcthread",
+            "command_name": "inject-ntqueueapcthread",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-conhost",
+            "command_name": "inject-conhost",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-svcctrl",
+            "command_name": "inject-svcctrl",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-ctray",
+            "command_name": "inject-ctray",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-createremotethread",
+            "command_name": "inject-createremotethread",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-setthreadcontext",
+            "command_name": "inject-setthreadcontext",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "inject-clipboard",
+            "command_name": "inject-clipboard",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
             "name": "Keylogger",
             "command_name": "raw-keylogger",
             "repo_url": "https://github.com/sliverarmory/SliverKeylogger",
@@ -902,6 +974,12 @@
             "command_name": "jump-psexec",
             "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
             "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
+        },
+        {
+            "name": "nanorobeus",
+            "command_name": "nanorobeus",
+            "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
+            "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
         }
     ],
     "bundles": [
@@ -922,7 +1000,8 @@
                 "delegationbof",
                 "c2tc-kerberoast",
                 "tgtdelegation",
-                "kerbrute"
+                "kerbrute",
+                "nanorobeus"
             ]
         },
         {
@@ -950,7 +1029,19 @@
                 "hollow",
                 "secinject",
                 "syscalls_shinject",
-                "threadless-inject"
+                "threadless-inject",
+                "inject-tooltip",
+                "inject-kernelcallbacktable",
+                "inject-uxsubclassinfo",
+                "inject-ntcreatethread",
+                "inject-dde",
+                "inject-ntqueueapcthread",
+                "inject-conhost",
+                "inject-svcctrl",
+                "inject-ctray",
+                "inject-createremotethread",
+                "inject-setthreadcontext",
+                "inject-clipboard"
             ]
         },
         {
