@@ -478,6 +478,30 @@
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
         {
+            "name": "sa-dir",
+            "command_name": "sa-dir",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netuse",
+            "command_name": "sa-netuse",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netuser",
+            "command_name": "sa-netuser",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netuserenum",
+            "command_name": "sa-netuserenum",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
             "name": "sa-regsession",
             "command_name": "sa-regsession",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
@@ -1097,7 +1121,11 @@
                 "sa-ldapsearch",
                 "sa-notepad",
                 "sa-probe",
-                "sa-regsession"
+                "sa-regsession",
+                "sa-dir",
+                "sa-netuse",
+                "sa-netuser",
+                "sa-netuserenum"
             ]
         },
         {
