@@ -1004,6 +1004,12 @@
             "command_name": "nanorobeus",
             "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
             "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
+        },
+        {
+            "name": "go-cookie-monster",
+            "command_name": "go-cookie-monster",
+            "repo_url": "https://github.com/sliverarmory/go-cookie-monster",
+            "public_key": "RWT9dnd+uf1FED1AkJO9jToTcmDChfq9KQpcBLjQtAhbOXTzAp29uWKD"
         }
     ],
     "bundles": [
@@ -1014,7 +1020,8 @@
                 "credman",
                 "chromiumkeydump",
                 "handlekatz",
-                "mimikatz"
+                "mimikatz",
+                "go-cookie-monster"
             ]
         },
         {
