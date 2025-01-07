@@ -874,6 +874,30 @@
             "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
         },
         {
+            "name": "remote-adcs_request_on_behalf",
+            "command_name": "remote-adcs_request_on_behalf",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-global_unprotect",
+            "command_name": "remote-global_unprotect",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-make_token_cert",
+            "command_name": "remote-make_token_cert",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-slackKey",
+            "command_name": "remote-slackKey",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
             "name": "inject-tooltip",
             "command_name": "inject-tooltip",
             "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
@@ -1191,7 +1215,11 @@
                 "remote-get_priv",
                 "remote-ghost_task",
                 "remote-sc_failure",
-                "remote-slack_cookie"
+                "remote-slack_cookie",
+                "remote-adcs_request_on_behalf",
+                "remote-global_unprotect",
+                "remote-make_token_cert",
+                "remote-slackKey"
             ]
         },
         {
