@@ -126,6 +126,12 @@
             "command_name": "sharpsccm",
             "repo_url": "https://github.com/sliverarmory/SharpSCCM",
             "public_key": "RWS7aZWdT/6qXaJa5OWigdMrJ2zE8v5t/bQkGLcNSNrRAo0Cs9jhdnNx"
+        },
+        {
+            "name": "MLOKit",
+            "command_name": "mlokit",
+            "repo_url": "https://github.com/sliverarmory/MLOKit",
+            "public_key": "RWSPxotBOH1N10X3Dg09dNxOa6uIEgtg6kuWTDulOHJ/QG6av3gMjJdR"
         }
     ],
     "extensions": [
@@ -1261,7 +1267,8 @@
                 "sharpchrome",
                 "sharpdpapi",
                 "sqlrecon",
-                "sharplaps"
+                "sharplaps",
+                "mlokit"
             ]
         }
     ]
