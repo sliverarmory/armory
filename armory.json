@@ -126,6 +126,12 @@
             "command_name": "sharpsccm",
             "repo_url": "https://github.com/sliverarmory/SharpSCCM",
             "public_key": "RWS7aZWdT/6qXaJa5OWigdMrJ2zE8v5t/bQkGLcNSNrRAo0Cs9jhdnNx"
+        },
+        {
+            "name": "MLOKit",
+            "command_name": "mlokit",
+            "repo_url": "https://github.com/sliverarmory/MLOKit",
+            "public_key": "RWSPxotBOH1N10X3Dg09dNxOa6uIEgtg6kuWTDulOHJ/QG6av3gMjJdR"
         }
     ],
     "extensions": [
@@ -474,6 +480,30 @@
         {
             "name": "sa-probe",
             "command_name": "sa-probe",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-dir",
+            "command_name": "sa-dir",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netuse",
+            "command_name": "sa-netuse",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netuser",
+            "command_name": "sa-netuser",
+            "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
+            "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
+        },
+        {
+            "name": "sa-netuserenum",
+            "command_name": "sa-netuserenum",
             "repo_url": "https://github.com/sliverarmory/CS-Situational-Awareness-BOF",
             "public_key": "RWSN1vDbbpNFEi3pKpeoMPIAHIvlOM502TK4zA8zTP5Jn0//+SXJboyQ"
         },
@@ -850,6 +880,30 @@
             "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
         },
         {
+            "name": "remote-adcs_request_on_behalf",
+            "command_name": "remote-adcs_request_on_behalf",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-global_unprotect",
+            "command_name": "remote-global_unprotect",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-make_token_cert",
+            "command_name": "remote-make_token_cert",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
+            "name": "remote-slackKey",
+            "command_name": "remote-slackKey",
+            "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
+            "public_key": "RWRm8i4sFCLvcgeDadZwq/nrHrioIm81PN3nejwhty6yjaomlfjACk8r"
+        },
+        {
             "name": "inject-tooltip",
             "command_name": "inject-tooltip",
             "repo_url": "https://github.com/sliverarmory/CS-Remote-OPs-BOF",
@@ -980,6 +1034,18 @@
             "command_name": "nanorobeus",
             "repo_url": "https://github.com/sliverarmory/HavocFrameworkModules",
             "public_key": "RWQK7+ZMIJIoyU+LbkVETsqj6aTT9cvJG5pk4J9hY50Isfzcf9zsEFrn"
+        },
+        {
+            "name": "go-cookie-monster",
+            "command_name": "go-cookie-monster",
+            "repo_url": "https://github.com/sliverarmory/go-cookie-monster",
+            "public_key": "RWT9dnd+uf1FED1AkJO9jToTcmDChfq9KQpcBLjQtAhbOXTzAp29uWKD"
+        },
+        {
+            "name": "chisel",
+            "command_name": "chisel",
+            "repo_url": "https://github.com/sliverarmory/chisel",
+            "public_key": "RWQprtN3AKNuWbfXIGnCza43DUTy7ePrn1qJkOvuNGIIQbCv7UsK24Z6"
         }
     ],
     "bundles": [
@@ -990,7 +1056,8 @@
                 "credman",
                 "chromiumkeydump",
                 "handlekatz",
-                "mimikatz"
+                "mimikatz",
+                "go-cookie-monster"
             ]
         },
         {
@@ -1097,7 +1164,11 @@
                 "sa-ldapsearch",
                 "sa-notepad",
                 "sa-probe",
-                "sa-regsession"
+                "sa-regsession",
+                "sa-dir",
+                "sa-netuse",
+                "sa-netuser",
+                "sa-netuserenum"
             ]
         },
         {
@@ -1156,7 +1227,11 @@
                 "remote-get_priv",
                 "remote-ghost_task",
                 "remote-sc_failure",
-                "remote-slack_cookie"
+                "remote-slack_cookie",
+                "remote-adcs_request_on_behalf",
+                "remote-global_unprotect",
+                "remote-make_token_cert",
+                "remote-slackKey"
             ]
         },
         {
@@ -1192,7 +1267,8 @@
                 "sharpchrome",
                 "sharpdpapi",
                 "sqlrecon",
-                "sharplaps"
+                "sharplaps",
+                "mlokit"
             ]
         }
     ]
