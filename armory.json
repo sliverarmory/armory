@@ -1046,6 +1046,12 @@
             "command_name": "chisel",
             "repo_url": "https://github.com/sliverarmory/chisel",
             "public_key": "RWQprtN3AKNuWbfXIGnCza43DUTy7ePrn1qJkOvuNGIIQbCv7UsK24Z6"
+        },
+        {
+            "name": "portbender",
+            "command_name": "portbender",
+            "repo_url": "https://github.com/sliverarmory/Sliver-PortBender",
+            "public_key": "RWSt+JnLbkQac67EF+VhPhZUxKwvRYxc2W/WInI/UtYC4KiuGdzwHC8p"
         }
     ],
     "bundles": [
