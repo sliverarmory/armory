@@ -1052,6 +1052,12 @@
             "command_name": "portbender",
             "repo_url": "https://github.com/sliverarmory/Sliver-PortBender",
             "public_key": "RWSt+JnLbkQac67EF+VhPhZUxKwvRYxc2W/WInI/UtYC4KiuGdzwHC8p"
+        },
+        {
+            "name": "powerchell",
+            "command_name": "powerchell",
+            "repo_url": "https://github.com/sliverarmory/PowerChell",
+            "public_key": "RWS8LDmHiR+L/dex3dWwr4+s7q9UcvPfFJeT/h3+tUsKqUIDKT0U7PbW"
         }
     ],
     "bundles": [
