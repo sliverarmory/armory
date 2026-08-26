@@ -1058,6 +1058,12 @@
             "command_name": "powerchell",
             "repo_url": "https://github.com/sliverarmory/PowerChell",
             "public_key": "RWS8LDmHiR+L/dex3dWwr4+s7q9UcvPfFJeT/h3+tUsKqUIDKT0U7PbW"
+        },
+        {
+            "name": "Beune BOF Collection",
+            "command_name": "beune-bof-collection",
+            "repo_url": "https://github.com/sliverarmory/bof_collection",
+            "public_key": "RWTFh8KpxR0fDBsOK+FYYSo/SxW9hFEQwqqCa0hv1YLyjVXrbXR/hMdf"
         }
     ],
     "bundles": [
