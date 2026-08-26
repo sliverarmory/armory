@@ -1058,6 +1058,12 @@
             "command_name": "powerchell",
             "repo_url": "https://github.com/sliverarmory/PowerChell",
             "public_key": "RWS8LDmHiR+L/dex3dWwr4+s7q9UcvPfFJeT/h3+tUsKqUIDKT0U7PbW"
+        },
+        {
+            "name": "Firefox Dump",
+            "command_name": "firefoxdump",
+            "repo_url": "https://github.com/sliverarmory/firefoxdump",
+            "public_key": "RWQT71u8OryWX4sIY2mwJq/41tKfI6SdZivwRlWLP9pBDn6ijresXI/H"
         }
     ],
     "bundles": [
