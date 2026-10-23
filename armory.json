@@ -136,6 +136,12 @@
     ],
     "extensions": [
         {
+            "name": "RustHound CE",
+            "command_name": "rusthound-ce",
+            "repo_url": "https://github.com/sliverarmory/RustHound-CE",
+            "public_key": "RWQ7YBtS7P7ygI6fozXxVcq+Mms0hv5P7jBmYf9VV4AfQMc80NbDbp8n"
+        },
+        {
             "name": "COFF Loader",
             "command_name": "coff-loader",
             "repo_url": "https://github.com/sliverarmory/COFFLoader",
@@ -1126,6 +1132,7 @@
         {
             "name": "situational-awareness",
             "packages": [
+                "rusthound-ce",
                 "sa-adcs-enum",
                 "sa-adcs-enum-com",
                 "sa-adcs-enum-com2",
