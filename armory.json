@@ -1070,6 +1070,12 @@
             "command_name": "entra-authcode-flow",
             "repo_url": "https://github.com/sliverarmory/BOF-entra-authcode-flow",
             "public_key": "RWTDBNY4QV0AHVmE63cBPI87a3LTBNtQ7CO1bfFYwoQ009/HKh3mFnGq"
+        },
+        {
+            "name": "Firefox Dump",
+            "command_name": "firefoxdump",
+            "repo_url": "https://github.com/sliverarmory/firefoxdump",
+            "public_key": "RWQT71u8OryWX4sIY2mwJq/41tKfI6SdZivwRlWLP9pBDn6ijresXI/H"
         }
     ],
     "bundles": [
