@@ -1076,6 +1076,12 @@
             "command_name": "firefoxdump",
             "repo_url": "https://github.com/sliverarmory/firefoxdump",
             "public_key": "RWQT71u8OryWX4sIY2mwJq/41tKfI6SdZivwRlWLP9pBDn6ijresXI/H"
+        },
+        {
+            "name": "VNC Desktop",
+            "command_name": "vnc",
+            "repo_url": "https://github.com/sliverarmory/vnc",
+            "public_key": "RWTAt+UCbNv/k1gUJdF0Bgqb3LgwJWzylx3xbgL/0d4HSb/hlIu5J7/c"
         }
     ],
     "bundles": [
